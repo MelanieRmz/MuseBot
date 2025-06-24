@@ -1,0 +1,1 @@
+supra move tool run  --function-id d8473d5c8aa356edf408d6e50d072bc297d3a5a66a7a8ce655c7b72b0b5d6478::supra_nft::mint     --args 'hex:a068a06e938380695034c442345e27a69485121c29e61266e746a5b678c187b4'     --args 'string:\"My Awesome NFT\"'     --args 'string:\"A unique collectible with timestamp-based rarity!\"'     --profile notrandom

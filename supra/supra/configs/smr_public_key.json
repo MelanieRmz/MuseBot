@@ -1,0 +1,40 @@
+{
+  "active": "my_nft_account",
+  "list": {
+    "notrandom": {
+      "ed25519_public_key": "c6c320811ea8cfdcc3bcef1183d2bf5e165464b4d9b8ef4c90e73ace7f790a58",
+      "account_address": "d8473d5c8aa356edf408d6e50d072bc297d3a5a66a7a8ce655c7b72b0b5d6478",
+      "rpc_url": "https://rpc-testnet.supra.com/",
+      "faucet_url": "https://rpc-testnet.supra.com/",
+      "chain_id": 6
+    },
+    "cid": {
+      "ed25519_public_key": "92ce4cd3074f8b900b556206c140230237dd1a864d30518deda9a49aa5b9559c",
+      "account_address": "3d527b0ca9be59c7c50d18d65fb9c847b901af56dbbf6402f5657dc3f5cee439",
+      "rpc_url": "https://rpc-testnet.supra.com/",
+      "faucet_url": "https://rpc-testnet.supra.com/",
+      "chain_id": 6
+    },
+    "no_random": {
+      "ed25519_public_key": "409b2f781cad46d48e1798e2e92f790901184ca632d0f180b3bdd70f88233b1c",
+      "account_address": "7efe7f4be32f3b934060f1090555f525f29a50f2f10aa3fdd6047367210325e5",
+      "rpc_url": "https://rpc-testnet.supra.com/",
+      "faucet_url": "https://rpc-testnet.supra.com/",
+      "chain_id": 6
+    },
+    "my_nft_account": {
+      "ed25519_public_key": "f681d33db29d8ecef6bc85e90d2d7d32e3f21db4b73011c337aacf594b8f1350",
+      "account_address": "ff2233771845c442f0606761a4c12e225a17c7c6fc4d0511b9acef02d7c03106",
+      "rpc_url": "https://rpc-testnet.supra.com/",
+      "faucet_url": "https://rpc-testnet.supra.com/",
+      "chain_id": 6
+    },
+    "pseudo_random": {
+      "ed25519_public_key": "882aa5bfb482704cb1c3b75fb9aa9065689a26f6b8551a7e0680870e6bf28f8d",
+      "account_address": "7b97a0540add18de610f369e9c2c52ab192408ff07af9af80318019b9f6bb073",
+      "rpc_url": "http://localhost:27000/",
+      "faucet_url": "http://localhost:27001/",
+      "chain_id": 255
+    }
+  }
+}

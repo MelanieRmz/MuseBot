@@ -1,0 +1,28 @@
+[package]
+name = "musebot"
+version = "1.0.0"
+authors = []
+
+[addresses]
+musebot = "3d527b0ca9be59c7c50d18d65fb9c847b901af56dbbf6402f5657dc3f5cee439"
+aptos_framework = "0x1"
+aptos_std = "0x1"
+SupraVrf = "0x1" # <--- CRITICAL: Explicitly map the SupraVrf package to 0x1
+
+
+[dev-addresses]
+
+[dependencies.SupraFramework]
+git = "https://github.com/Entropy-Foundation/aptos-core.git"
+rev = "dev"
+subdir = "aptos-move/framework/supra-framework"
+
+[dependencies.SupraVrf]
+git = "https://github.com/Entropy-Foundation/vrf-interface"
+subdir = "supra/testnet"
+rev = "master"
+
+[dependencies.AptosStdlib]
+git = "https://github.com/Entropy-Foundation/aptos-core.git"
+rev = "dev"
+subdir = "aptos-move/framework/aptos-stdlib" # Assuming you've verified this path or removed it if not found.

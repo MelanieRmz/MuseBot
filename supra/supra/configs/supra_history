@@ -1,0 +1,1490 @@
+Local: (2025-06-23 04:25:14.047774804 +00:00)	 Utc: (2025-06-23 04:25:14.047853164 UTC)
+
+CMD:
+New(NewProfileArgs { name: Some("my_nft_account"), private_key: None, profile_option: ProfileAttributeOptionsMaker { network: Some(Testnet), profile_option: None }, interactive: false })
+Output:
+-------------------------- Profile List ---------------------------------
+	(*) my_nft_account
+CliProfile { account_address: "0xff2233771845c442f0606761a4c12e225a17c7c6fc4d0511b9acef02d7c03106", ed25519_public_key: f681d33db29d8ecef6bc85e90d2d7d32e3f21db4b73011c337aacf594b8f1350, rpc_url: "https://rpc-testnet.supra.com/", faucet_url: "https://rpc-testnet.supra.com/", chain_id: 6 }
+-------------------------------------------------------------------------
+
+
+Local: (2025-06-23 04:25:34.554678335 +00:00)	 Utc: (2025-06-23 04:25:34.554728785 UTC)
+
+CMD:
+List(ListProfileArgs { reveal_secrets: false })
+Output:
+-------------------------- Profile List ---------------------------------
+	(*) my_nft_account
+CliProfile { account_address: "0xff2233771845c442f0606761a4c12e225a17c7c6fc4d0511b9acef02d7c03106", ed25519_public_key: f681d33db29d8ecef6bc85e90d2d7d32e3f21db4b73011c337aacf594b8f1350, rpc_url: "https://rpc-testnet.supra.com/", faucet_url: "https://rpc-testnet.supra.com/", chain_id: 6 }
+-------------------------------------------------------------------------
+
+
+Local: (2025-06-23 04:28:24.783742338 +00:00)	 Utc: (2025-06-23 04:28:24.783797248 UTC)
+
+CMD:
+AccountTool::FundWithFaucet
+Output:
+{
+  "Accepted": "0x6604b115d7a98398b6224a01bf46f9cf10cff0e6b4f6d2c9abceabb36a73d89b"
+}
+
+
+Local: (2025-06-23 04:29:30.929435420 +00:00)	 Utc: (2025-06-23 04:29:30.929462520 UTC)
+
+CMD:
+Init
+Output:
+{
+  "Result": null
+}
+
+
+Local: (2025-06-23 04:30:04.858173714 +00:00)	 Utc: (2025-06-23 04:30:04.858216074 UTC)
+
+CMD:
+Init
+Output:
+{
+  "Result": null
+}
+
+
+Local: (2025-06-23 04:30:21.169373055 +00:00)	 Utc: (2025-06-23 04:30:21.169411055 UTC)
+
+CMD:
+Init
+Output:
+{
+  "Result": null
+}
+
+
+Local: (2025-06-23 04:32:17.914968288 +00:00)	 Utc: (2025-06-23 04:32:17.915036099 UTC)
+
+CMD:
+List(ListProfileArgs { reveal_secrets: false })
+Output:
+-------------------------- Profile List ---------------------------------
+	(*) my_nft_account
+CliProfile { account_address: "0xff2233771845c442f0606761a4c12e225a17c7c6fc4d0511b9acef02d7c03106", ed25519_public_key: f681d33db29d8ecef6bc85e90d2d7d32e3f21db4b73011c337aacf594b8f1350, rpc_url: "https://rpc-testnet.supra.com/", faucet_url: "https://rpc-testnet.supra.com/", chain_id: 6 }
+-------------------------------------------------------------------------
+
+
+Local: (2025-06-23 04:32:30.913449033 +00:00)	 Utc: (2025-06-23 04:32:30.913506523 UTC)
+
+CMD:
+AccountTool::FundWithFaucet
+Output:
+General: Message: "{\"message\":\"Account 0xff2233771845c442f0606761a4c12e225a17c7c6fc4d0511b9acef02d7c03106 recently received some tokens. Please try again in 3354s.\"}", Cause: Err("HTTP status client error (429 Too Many Requests) for url (https://rpc-testnet.supra.com/rpc/v3/wallet/faucet/ff2233771845c442f0606761a4c12e225a17c7c6fc4d0511b9acef02d7c03106)")
+Local: (2025-06-23 04:32:54.252828566 +00:00)	 Utc: (2025-06-23 04:32:54.252855186 UTC)
+
+CMD:
+Init
+Output:
+{
+  "Result": null
+}
+
+
+Local: (2025-06-23 05:13:46.920141469 +00:00)	 Utc: (2025-06-23 05:13:46.920199539 UTC)
+
+CMD:
+List(ListProfileArgs { reveal_secrets: false })
+Output:
+-------------------------- Profile List ---------------------------------
+	(*) my_nft_account
+CliProfile { account_address: "0xff2233771845c442f0606761a4c12e225a17c7c6fc4d0511b9acef02d7c03106", ed25519_public_key: f681d33db29d8ecef6bc85e90d2d7d32e3f21db4b73011c337aacf594b8f1350, rpc_url: "https://rpc-testnet.supra.com/", faucet_url: "https://rpc-testnet.supra.com/", chain_id: 6 }
+-------------------------------------------------------------------------
+
+
+Local: (2025-06-23 05:14:14.857390527 +00:00)	 Utc: (2025-06-23 05:14:14.857416798 UTC)
+
+CMD:
+Compile
+Output:
+General: {
+  "Error": "Move compilation failed: Unable to find package manifest in '/supra/configs/move_workspace/musebot' or in its parents"
+}
+Local: (2025-06-23 05:14:54.230308297 +00:00)	 Utc: (2025-06-23 05:14:54.230336967 UTC)
+
+CMD:
+Compile
+Output:
+General: {
+  "Error": "Move compilation failed: Unable to find package manifest in '/supra/configs/move_workspace/musebot' or in its parents"
+}
+Local: (2025-06-23 05:15:37.369478505 +00:00)	 Utc: (2025-06-23 05:15:37.369503554 UTC)
+
+CMD:
+Compile
+Output:
+General: {
+  "Error": "Move compilation failed: Unable to find package manifest in '/move_workspace/musebot' or in its parents"
+}
+Local: (2025-06-23 05:15:41.323818895 +00:00)	 Utc: (2025-06-23 05:15:41.323844146 UTC)
+
+CMD:
+Compile
+Output:
+General: {
+  "Error": "Move compilation failed: Unable to parse Move package manifest: TOML parse error at line 16, column 1\n   |\n16 | git = \"https://github.com/Entropy-Foundation/vrf-interface\"\n   | ^\nduplicate key `git` in table `dependencies.SupraFramework`\n"
+}
+Local: (2025-06-23 05:16:32.375764575 +00:00)	 Utc: (2025-06-23 05:16:32.375821306 UTC)
+
+CMD:
+Compile
+Output:
+General: {
+  "Error": "Move compilation failed: Unable to resolve packages for package 'musebot': While resolving dependency 'SupraVRFInterface' in package 'musebot': Name of dependency declared in package 'SupraVRFInterface' does not match dependency's package name 'SupraVrf'"
+}
+Local: (2025-06-23 05:21:36.798952484 +00:00)	 Utc: (2025-06-23 05:21:36.799010373 UTC)
+
+CMD:
+Compile
+Output:
+General: {
+  "Error": "Move compilation failed: Compilation error"
+}
+Local: (2025-06-23 05:22:32.169081271 +00:00)	 Utc: (2025-06-23 05:22:32.169121281 UTC)
+
+CMD:
+Compile
+Output:
+General: {
+  "Error": "Move compilation failed: Compilation error"
+}
+Local: (2025-06-23 05:23:00.515726857 +00:00)	 Utc: (2025-06-23 05:23:00.515776457 UTC)
+
+CMD:
+Compile
+Output:
+General: {
+  "Error": "Move compilation failed: Compilation error"
+}
+Local: (2025-06-23 05:23:32.445118856 +00:00)	 Utc: (2025-06-23 05:23:32.445169376 UTC)
+
+CMD:
+Compile
+Output:
+General: {
+  "Error": "Move compilation failed: Compilation error"
+}
+Local: (2025-06-23 05:23:40.461423412 +00:00)	 Utc: (2025-06-23 05:23:40.461479912 UTC)
+
+CMD:
+Compile
+Output:
+General: {
+  "Error": "Move compilation failed: Compilation error"
+}
+Local: (2025-06-23 05:25:16.360429805 +00:00)	 Utc: (2025-06-23 05:25:16.360460825 UTC)
+
+CMD:
+Compile
+Output:
+General: {
+  "Error": "Move compilation failed: Unable to resolve packages for package 'musebot': While resolving dependency 'AptosFramework' in package 'musebot': While processing dependency 'AptosFramework': Unable to find package manifest for 'AptosFramework' at \"/root/.move/https___github_com_Entropy-Foundation_aptos-core_git_dev/aptos-move/framework/aptos-framework\""
+}
+Local: (2025-06-23 05:27:42.472206327 +00:00)	 Utc: (2025-06-23 05:27:42.472233057 UTC)
+
+CMD:
+Compile
+Output:
+General: {
+  "Error": "Move compilation failed: Unable to resolve packages for package 'musebot': While resolving dependency 'AptosFramework' in package 'musebot': Name of dependency declared in package 'AptosFramework' does not match dependency's package name 'SupraFramework'"
+}
+Local: (2025-06-23 05:27:52.736333359 +00:00)	 Utc: (2025-06-23 05:27:52.736387949 UTC)
+
+CMD:
+Compile
+Output:
+General: {
+  "Error": "Move compilation failed: Compilation error"
+}
+Local: (2025-06-23 05:28:25.496570617 +00:00)	 Utc: (2025-06-23 05:28:25.496646647 UTC)
+
+CMD:
+Compile
+Output:
+General: {
+  "Error": "Move compilation failed: Compilation error"
+}
+Local: (2025-06-23 05:30:06.962051004 +00:00)	 Utc: (2025-06-23 05:30:06.962107764 UTC)
+
+CMD:
+Compile
+Output:
+General: {
+  "Error": "Move compilation failed: Compilation error"
+}
+Local: (2025-06-23 05:40:22.159261821 +00:00)	 Utc: (2025-06-23 05:40:22.159315430 UTC)
+
+CMD:
+Compile
+Output:
+General: {
+  "Error": "Move compilation failed: Compilation error"
+}
+Local: (2025-06-23 05:40:32.501410763 +00:00)	 Utc: (2025-06-23 05:40:32.501466703 UTC)
+
+CMD:
+Compile
+Output:
+General: {
+  "Error": "Move compilation failed: Compilation error"
+}
+Local: (2025-06-23 05:41:24.411692025 +00:00)	 Utc: (2025-06-23 05:41:24.411750635 UTC)
+
+CMD:
+Compile
+Output:
+General: {
+  "Error": "Move compilation failed: Compilation error"
+}
+Local: (2025-06-23 05:42:13.610416433 +00:00)	 Utc: (2025-06-23 05:42:13.610470284 UTC)
+
+CMD:
+Compile
+Output:
+General: {
+  "Error": "Move compilation failed: Compilation error"
+}
+Local: (2025-06-23 05:42:18.607404502 +00:00)	 Utc: (2025-06-23 05:42:18.607458442 UTC)
+
+CMD:
+Compile
+Output:
+General: {
+  "Error": "Move compilation failed: Compilation error"
+}
+Local: (2025-06-23 05:43:19.839801024 +00:00)	 Utc: (2025-06-23 05:43:19.839855755 UTC)
+
+CMD:
+Compile
+Output:
+General: {
+  "Error": "Move compilation failed: Compilation error"
+}
+Local: (2025-06-23 05:44:28.898755331 +00:00)	 Utc: (2025-06-23 05:44:28.898808411 UTC)
+
+CMD:
+Compile
+Output:
+General: {
+  "Error": "Move compilation failed: Compilation error"
+}
+Local: (2025-06-23 05:48:21.966716747 +00:00)	 Utc: (2025-06-23 05:48:21.966745447 UTC)
+
+CMD:
+Compile
+Output:
+General: {
+  "Error": "Move compilation failed: Unable to resolve packages for package 'musebot': While resolving dependency 'SupraFramework' in package 'musebot': Unable to resolve package dependency 'SupraFramework': While resolving dependency 'AptosStdlib' in package 'SupraFramework': Unable to resolve package dependency 'AptosStdlib': Conflicting dependencies found: package 'AptosStdlib' conflicts with 'AptosStdlib'"
+}
+Local: (2025-06-23 05:48:50.031208266 +00:00)	 Utc: (2025-06-23 05:48:50.031262476 UTC)
+
+CMD:
+Compile
+Output:
+General: {
+  "Error": "Move compilation failed: Compilation error"
+}
+Local: (2025-06-23 05:49:52.997515852 +00:00)	 Utc: (2025-06-23 05:49:52.997569852 UTC)
+
+CMD:
+Compile
+Output:
+General: {
+  "Error": "Move compilation failed: Compilation error"
+}
+Local: (2025-06-23 05:51:46.772901149 +00:00)	 Utc: (2025-06-23 05:51:46.772954558 UTC)
+
+CMD:
+Compile
+Output:
+General: {
+  "Error": "Move compilation failed: Compilation error"
+}
+Local: (2025-06-23 05:54:35.623866715 +00:00)	 Utc: (2025-06-23 05:54:35.623922545 UTC)
+
+CMD:
+Compile
+Output:
+General: {
+  "Error": "Move compilation failed: Compilation error"
+}
+Local: (2025-06-23 05:55:04.611073774 +00:00)	 Utc: (2025-06-23 05:55:04.611128343 UTC)
+
+CMD:
+Compile
+Output:
+General: {
+  "Error": "Move compilation failed: Compilation error"
+}
+Local: (2025-06-23 05:58:40.932164495 +00:00)	 Utc: (2025-06-23 05:58:40.932235615 UTC)
+
+CMD:
+Compile
+Output:
+General: {
+  "Error": "Move compilation failed: Compilation error"
+}
+Local: (2025-06-23 05:58:52.985726072 +00:00)	 Utc: (2025-06-23 05:58:52.985780943 UTC)
+
+CMD:
+Compile
+Output:
+General: {
+  "Error": "Move compilation failed: Compilation error"
+}
+Local: (2025-06-23 06:01:10.317843467 +00:00)	 Utc: (2025-06-23 06:01:10.317905947 UTC)
+
+CMD:
+Compile
+Output:
+General: {
+  "Error": "Move compilation failed: Compilation error"
+}
+Local: (2025-06-23 06:01:23.766245067 +00:00)	 Utc: (2025-06-23 06:01:23.766299316 UTC)
+
+CMD:
+Compile
+Output:
+General: {
+  "Error": "Move compilation failed: Compilation error"
+}
+Local: (2025-06-23 06:02:11.462637207 +00:00)	 Utc: (2025-06-23 06:02:11.462689547 UTC)
+
+CMD:
+Compile
+Output:
+General: {
+  "Error": "Move compilation failed: Compilation error"
+}
+Local: (2025-06-23 06:02:35.230319254 +00:00)	 Utc: (2025-06-23 06:02:35.230372354 UTC)
+
+CMD:
+Compile
+Output:
+General: {
+  "Error": "Move compilation failed: Compilation error"
+}
+Local: (2025-06-23 06:03:50.039902787 +00:00)	 Utc: (2025-06-23 06:03:50.039970178 UTC)
+
+CMD:
+Compile
+Output:
+General: {
+  "Error": "Move compilation failed: Compilation error"
+}
+Local: (2025-06-23 06:04:09.567740605 +00:00)	 Utc: (2025-06-23 06:04:09.567810785 UTC)
+
+CMD:
+Compile
+Output:
+General: {
+  "Error": "Move compilation failed: Compilation error"
+}
+Local: (2025-06-23 06:05:38.316898286 +00:00)	 Utc: (2025-06-23 06:05:38.316950056 UTC)
+
+CMD:
+Compile
+Output:
+General: {
+  "Error": "Move compilation failed: Compilation error"
+}
+Local: (2025-06-23 06:06:04.765953520 +00:00)	 Utc: (2025-06-23 06:06:04.766009600 UTC)
+
+CMD:
+Compile
+Output:
+General: {
+  "Error": "Move compilation failed: extended checks failed"
+}
+Local: (2025-06-23 06:06:39.501178907 +00:00)	 Utc: (2025-06-23 06:06:39.501240247 UTC)
+
+CMD:
+Compile
+Output:
+{
+  "Result": [
+    "ff2233771845c442f0606761a4c12e225a17c7c6fc4d0511b9acef02d7c03106::supra_nft"
+  ]
+}
+
+
+Local: (2025-06-23 06:07:36.435895466 +00:00)	 Utc: (2025-06-23 06:07:36.435954286 UTC)
+
+CMD:
+Compile
+Output:
+{
+  "Result": [
+    "ff2233771845c442f0606761a4c12e225a17c7c6fc4d0511b9acef02d7c03106::supra_nft"
+  ]
+}
+
+
+Local: (2025-06-23 06:10:40.859894526 +00:00)	 Utc: (2025-06-23 06:10:40.859928566 UTC)
+
+CMD:
+Publish
+Output:
+General: Move compilation failed: Unable to find package manifest in '/supra/configs/move_workspace/musebot' or in its parents
+Local: (2025-06-23 06:11:07.978248850 +00:00)	 Utc: (2025-06-23 06:11:07.978275250 UTC)
+
+CMD:
+Publish
+Output:
+General: Move compilation failed: Unable to find package manifest in '/move_workspace/musebot' or in its parents
+Local: (2025-06-23 06:11:24.397805307 +00:00)	 Utc: (2025-06-23 06:11:24.397830857 UTC)
+
+CMD:
+Publish
+Output:
+General: Move compilation failed: Unable to find package manifest in './supra/move_workspace/musebot' or in its parents
+Local: (2025-06-23 06:12:04.009089216 +00:00)	 Utc: (2025-06-23 06:12:04.009127985 UTC)
+
+CMD:
+Publish
+Output:
+{
+  "authenticator": {
+    "Move": {
+      "Ed25519": {
+        "public_key": "0xf681d33db29d8ecef6bc85e90d2d7d32e3f21db4b73011c337aacf594b8f1350",
+        "signature": "0x3ebbee8def391acf07290ebffa0450218741e2b59a4d157aac90721494372bf5412072133c8bdf0716c8489a7d87f5764401dba590f078f11ffaae2d0815b303"
+      }
+    }
+  },
+  "block_header": {
+    "hash": "0x66f7c3291c745df81ee693d4b451d0a975e2a00187d5fcfa08808e7d1941f2b7",
+    "height": 19319141,
+    "timestamp": {
+      "microseconds_since_unix_epoch": 1750659122596231,
+      "utc_date_time": "2025-06-23T06:12:02.596231+00:00"
+    }
+  },
+  "hash": "0xd7fa45282753920a339101aa56cc703c0080e86edaa28d98b538981407008993",
+  "header": {
+    "chain_id": 6,
+    "expiration_timestamp": {
+      "microseconds_since_unix_epoch": 1750659151000000,
+      "utc_date_time": "2025-06-23T06:12:31+00:00"
+    },
+    "sender": {
+      "Move": "0xff2233771845c442f0606761a4c12e225a17c7c6fc4d0511b9acef02d7c03106"
+    },
+    "sequence_number": 0,
+    "gas_unit_price": 100,
+    "max_gas_amount": 3254
+  },
+  "payload": {
+    "Move": {
+      "type": "entry_function_payload",
+      "function": "0x1::code::publish_package_txn",
+      "type_arguments": [],
+      "arguments": [
+        "0x076d757365626f740100000000000000004038324536444146323341323235414345334134314631413635443944373439334234423533333846324337324132423545464333313631374533433832423237cd031f8b08000000000002ffbd524d8fd4300cbdf75744e54a3fa7d302128795602524240e237119556c9a38d3b04d522569a1ff1ea7d32dc3c7652f5bf562e7d9efd9cfe791b2477a8136d25401794f623539e88c8fa319ac9346875c91e6691e4774f2bdb10e33e7368ace94730bce816ba3ad2860f39f4294e5e1d034c59beac8aaaa14799dd74d5dd08a152594e591160d6b582d58c5f36351746f29039197bc61f9a1c86b241abd71df8445493f8c7dbcb62d62f28a9c3cd59c5a4eee0284fc866c62b652e7f95e14be7f0a1130c86eaf8ace1ce6e466a090184173d04c824b4fd368e9fd13591b5de43a6beffde8de651986fdd4a5cca8eca3f6d68c4b726f26e4f3b8c06c959430632145601c5998433132c6919b3a2e6d08af286566c8f6a9321778933d8effabebab15cf54345b9148edc10adcfcad88952ff3e0bc061ff67de7dca4a4be10df4b47f0c7312c309f924f02734014959a28c3a701c2b3c623c05e881816822f0f7f747c784d163311252fbd271a80136fd083ef93f3e9d35a1475282c707fb18412370293423224560a67eca9eb8930161da49d1ca45ffedec96af069f5b7c52e1f800dd4c2e6fb7e069f6567a95d5eccc96bf27a76f1766fb7b2db5f8f696cb88a030000010973757072615f6e667484141f8b08000000000002ffc5596d6fdbc811fe9e5fb177457352aa3849710d023a091ac43160a07183d83d14280a892257d29e292e8f5c5a5103fff73e33fb422e4539977bc1f9830191bb33b333cfcc3c3bdceabc2da4d8b68d5c6a93244d5bd5e9bc5c19f1f9c103813fbc10696574335fd5e956ee747d9324f25696e654c47f4f9e88735d0bb955c6a8722d7851735c48a3d6a5ac4f4785aca595d1c83297b548f3bc964d2356b5de0abb6f20b7317992987459c824f97c258bd54c5cd3afbbd320f7caa4659ed6b928d4b24eebbd5841116f69c68435a6860541da15ffb4e28e09b35b46a5ddcacce8e161ef37cd6ee9a4d9d0902b7c986eebd5a9b0617a02291f65052f91d3452a2e75f9f8bc2dd70ae713d7fa46964297c26ca4b8a2bde2521a0ac349d87d518a3764ef4ce8e58f50dd889d321bb1b891fb85486be887353217ad8d48e9836225e0e86d66aceccbf36bb1491b819d33bb6b26f25a5780943fb35531577922dae7dfcfc8076f10d86d05632fce66629b96e91aca967b3639d3a5a9d3cc84fdaa5a3573e8d824ce4d2fdb17af59ccc587f32bf116ebe1077191e3bf5a29183c797b71360dfb4ba03071319d85a7b96cb25a5546e9f2f025e2a2cc1ef6fef56fcf59d3cbc78f1f8bf38b7fbf3b4bc4db4d5a92bd7691309a9775c7dd01b189f718efbea663b5754d66f26ba1577c56788ff7ddd9c0fee93f9c47ff1d6a7caf6fa12fbc4d0dcc5db6468aa50478a4c875d66ef12aa5d3c0815bfa1182fd8e76d9548594dd06e848452977a45da8466c151c9847a1c59bf7fc94634bf19c416ce5432c3e7310cfcec4827f03334b5590333692009041884a0b4636db8c2a02f5f721c23a959df9fc7bc240a31a0e2b03d3432d48c86a994273e7e62f447b1c43bf3ade775d42be11b043b775c687b06ea210176963f0eaa75636e4cf529758418ec97ff8782eb2b428966976832c2e7351a1025225a488f83d4d97b5d71b442b68d9a9a200007caaa686d56db9c67fd784323aa9da65a11a04a67b388d82fd0f5878c966c589eca29ce70751562ba10cc4ad35598be37666ac0bbdc499f65d3c48b28d7378e6ce39a773cefd39135bc45f32223ed81504c28ff6bdcdf8f769e55c08ad6e2752d9a4aa688611b9228b1aff967d9e8eba58a4bb54710b8a62d2391e3ec0d11694019d13e02b650447c4b475690bd86d5ab4d2b6ae05fada7ceca40b8e752db79cd5bc963b531494430770745c85b5b968ebec10aece587a198ced802e335529cac8c3ccf9428e7c6519ed05e2a28477d342fd0fd1e8304aeee23426c7934750f5cb6625eb9a4185751d30fba9456f02a6adcf566d291494ccade4896512897868e9c3b4d78c0a691cd198fb0c79e5584692b82773bd7222a6a70f7a9dfb5f0d5966112e16f2132a54f3f2faf584b64d179d1f5762f28d7b1b8ef07a126b9df68d1a954ff0981b3db1c6cd820f7a9ae82f2c63f1b39ed33efbdc7b3a3b96718e44a1194ca6e2ae77dabb610c3f90c73301e4106369cb8c5b4d2f09bb96423a6c5caac1267e35094a0661fabd90381569f653aba816f49d83432dfc8b05e5311508ef64022a2a6a8f0ae558979962ef3811a1f091efe9c3a2fbe837811bb18645b078d125016c1d56fb90101defd86d54b6a1b58bbf3bc68f539a0604f7e438a897baaef56e6e7fceb7ad19c1379d89bada9ce1354733c7990e37f6a0ef0dc0f9faaa2f4ae43f51955e57a45311901cac3aa591c213bbe1d5f8e3bf8867a791b52e4ef3fb76c5a671ef186f16ae9fccd0001a0d9ac3a48a488ae9b13c161904ba34831f270fe19aa1fed1e49cc5568fb5c44105e9d5f61872b3685948aef8312555fca49750dd8bbb410cbd29a8dd391a59d96e97002137356aa687485b84eb4c92d438b46f8a279edeb8545d8c5e81168e6d64809b4d47dc23744d31a016b2d4c8ce0edee3aa26d1297ddd74096773d3f3736e4929d7ba68930774d8e6937b4704185b8956db2ea788815485decb3cd6ebae9cad59bd982cbf0d77f16fa796e8d8dd141531e9c99bde27840ee9d98b93f3d6fdec6a36898c843c9bf503f92c0e65b47280488ea974c90b729215843e7894680de532ae7172c8403a8d97162b70f5b2d0b010a47fa5ea2d5f62c05bd3fcc796fa4a837a20732f12269654538d93dbf9c315cf5ecf3a3cbb2a6f713b0e574da67b8dac6f15f36997c3d1f98f34b2bea73b3ccd871d6dc8cd3e4af27e4e20766bf9b2a00a492e6c4ba00ac524ad4b44f55e06bd05d870691eef8fa43c05273df29aecee8ac3f0a6aa9a70b3082ef257f2ee52214fd62733f1f4d3b3ceffec12e41fca4ffba2a78d4131275074b7bd480d9a9ad0b55aab121dc8750226c5d4e07a95f7e737f3b89387ce7de48ad4af513f80a6e628e9b6987bfc0487729101af3fc409a639bd6e355aed6e65ad56fb009bdfa5e251b7633d4ae6736b59d3a100d7d6d7c43f8eda1497469be631dbb4b88b1f06f7c48f639cc5ef0258065b3ab0ccfa891d771c143d4c15ec4560ac43b78dbf41f4e4898925443b1414421c1f6efa0732a19ee6776543e032fb8a10566a37c821187b6ee0cf06c0c84f158a91e2d2b870d4c2de2617ee2e6aaf59f62eead11f193d909a8c918b572292fd55cca573fb207828c9595b5082b9694ac87494fe218d081bc1b4646dbe99581c2709cae5da6c260f87489f8ad774d9793a3ded7915595f481ac2e8521e914f2eb16f9c243b09820b1e799536aa872a59db8381a46e9804119348b2f8b378f6f4e994392aa3d9ba0161e5e5086925eb50f122d7d15d59fab161a86f916af087b96fd22a3fc6747de38ec8aae0f108faacca98d272761295c373d2777136d404f161041c33d1de7c2fb6888bff951dfd2acffe29eb2ece02fb2771d48b55d9e751e314361922f9e41e767bb8f85ece7bb87c941077e3c3f8991b030f650492ceaef8a76f7b3c83ad0906e402dedb51ee3885ae8763127218080d4fd4f7dd27194ced79f61addf6ceb81a50afb4ad3a0137d58d32b667ae25f482e774bd930cda578a4af91e38c1104af325bfe1ab7198d8002fca7d5288d4bd0159429337fc49a2f11f3e76ba2d68b25ce685c533a8450b27e02b46b64929ee4e6e248b3e156dd0a352b381ff791f9f8fdbe0825d86532809d1dc900a375d4221a515e4e0926824af6c36aa3a89dcfa6e4b15d5f98cbd81d2c47b0067e2884322db1b6c4fba79f97d8970127e06ee4ca7a08137f0bf230ecdbc31be288451f77128fd22a87f7d120d617e37a4dc7e4a74ab7083ef0f898832f9392cf87eeabe3978e8622c010ff879aba545613b8a0430419fb9aa02f7898d2e409b4f3c9203660aad6fda8aa55b6c3fa640e7e10317d4b812060d904f60c6f52955eb8d41b4770c4c941dddd22ccbb1805aae41ebc0f90107b8a6debbc4722abeebc6f1614ccf384dfb48ad65c1fbb40357e3d37cabd1952a22d694606026fb500403f668e0591307a5a48b2e23740d3936629e0c59f774b4c58f51e97802d50f44c669bbb4bcd85e62b28d8469643092dbb42eb89e947938fd4c92f58b08d617c8d523c7617cfbfe7afee2107ef7e0ffb163d8ff3e1f000000000500000000000000000000000000000000000000000000000000000000000000010b4170746f735374646c696200000000000000000000000000000000000000000000000000000000000000010a4d6f76655374646c696200000000000000000000000000000000000000000000000000000000000000010e53757072614672616d65776f726b00000000000000000000000000000000000000000000000000000000000000010b53757072615374646c6962186ba2ba88f4a14ca51f6ce42702c7ebdf6bfcf738d897cc98b986ded6f1219e08537570726156726600",
+        [
+          "0xa11ceb0b060000000c01000c020c1c03284a04720a057c8b01078702c90208d0046006b0053f10ef05240a93063b0cce06ea020db8090e00000101010201030104020500060c00000707000008070000090e00030c07000411040203010001000a000100000b020300000d040300000e050300041a0708020300021b020900041c030a020304041d0c03020300031e0d0e00051f0f00000520111200042113140203000122170301060406060607060b060c16010301080201060c0004060c0a020804080407060c030a020a020502030203080202060b0502090009010900010609010105010b05020900090103030708000503070b05020900090109000901010a0201080407060c050804080402030305070800080308020f0a0f06030a020a02050203010a0f02070b0502090009010900010901010f0108010109000973757072615f6e6674056576656e74067369676e657206737472696e67057461626c650973757072615f767266094c6173744e6f6e6365094e46544d696e7465641250656e64696e674d696e74526571756573740853757072614e4654186765745f70656e64696e675f6d696e745f726571756573740b696e69745f6d6f64756c6506537472696e67046d696e740c726e675f63616c6c6261636b056e6f6e63651570656e64696e675f6d696e745f7265717565737473055461626c65096f626a6563745f69640763726561746f72046e616d6509697066735f686173680672617269747909726563697069656e740b6465736372697074696f6e056f776e657206626f72726f770a616464726573735f6f66036e65770361646404757466380b726e675f726571756573740f7665726966795f63616c6c6261636b0672656d6f766504656d6974ff2233771845c442f0606761a4c12e225a17c7c6fc4d0511b9acef02d7c031060000000000000000000000000000000000000000000000000000000000000001186ba2ba88f4a14ca51f6ce42702c7ebdf6bfcf738d897cc98b986ded6f1219e0520ff2233771845c442f0606761a4c12e225a17c7c6fc4d0511b9acef02d7c031060a020a0973757072615f6e66740a020d0c726e675f63616c6c6261636b126170746f733a3a6d657461646174615f7631100001094e46544d696e746564010400000002020f03100b050203080201020512031305140804150a02160f0202041705150a021408041808040302061203150a02140804180804160f19050001000100030707002b0010000b003800140201000000030e0a001105290020040b0b00060000000000000000380112002d00050d0b00010202010401000b270a0011050c0607002a000c050a05100114060100000000000000160a050f01150a051001140c040b050f000a040b060b010b020b03120238020b000700070111080702110831010b0406010000000000000011090102030104010010450b010b020b030b040b050a06110a0c0b07002a000c070a070f000b0638030c090e0b4115060000000000000000240416051a0b0701060000000000000000270e0b0600000000000000004215144a6400000000000000000000000000000000000000000000000000000000000000194a0100000000000000000000000000000000000000000000000000000000000000160c0a0b071001140e091002140e091003140e091004140a0a0e0910051412030c080e081006140e091005140e091003140e091002140b0a1201380402000100000201020202030200030000"
+        ]
+      ]
+    }
+  },
+  "output": {
+    "Move": {
+      "gas_used": 3254,
+      "events": [
+        {
+          "guid": {
+            "creation_number": "0",
+            "account_address": "0x0"
+          },
+          "sequence_number": "0",
+          "type": "0x1::code::PublishPackage",
+          "data": {
+            "code_address": "0xff2233771845c442f0606761a4c12e225a17c7c6fc4d0511b9acef02d7c03106",
+            "is_upgrade": false
+          }
+        },
+        {
+          "guid": {
+            "creation_number": "0",
+            "account_address": "0x0"
+          },
+          "sequence_number": "0",
+          "type": "0x1::transaction_fee::FeeStatement",
+          "data": {
+            "execution_gas_units": "10",
+            "io_gas_units": "79",
+            "storage_fee_quants": "316480",
+            "storage_fee_refund_quants": "0",
+            "total_charge_gas_units": "3254"
+          }
+        }
+      ],
+      "vm_status": "Executed successfully"
+    }
+  },
+  "status": "Success"
+}
+
+
+Local: (2025-06-23 06:14:42.865041521 +00:00)	 Utc: (2025-06-23 06:14:42.865100550 UTC)
+
+CMD:
+Run
+Output:
+Command Aborted Reason(Some(Move(MoveTransactionOutput { gas_used: 4, events: [Event { guid: EventGuid { creation_number: U64(0), account_address: Address(0000000000000000000000000000000000000000000000000000000000000000) }, sequence_number: U64(0), typ: Struct(MoveStructTag { address: Address(0000000000000000000000000000000000000000000000000000000000000001), module: IdentifierWrapper(Identifier("transaction_fee")), name: IdentifierWrapper(Identifier("FeeStatement")), generic_type_params: [] }), data: Object {"execution_gas_units": String("4"), "io_gas_units": String("0"), "storage_fee_quants": String("0"), "storage_fee_refund_quants": String("0"), "total_charge_gas_units": String("4")} }], vm_status: "EXECUTE_ENTRY_FUNCTION_CALLED_ON_NON_ENTRY_FUNCTION" }))), Action(Please try again.)
+Local: (2025-06-23 06:15:09.264438782 +00:00)	 Utc: (2025-06-23 06:15:09.264508682 UTC)
+
+CMD:
+Run
+Output:
+Command Aborted Reason(Some(Move(MoveTransactionOutput { gas_used: 4, events: [Event { guid: EventGuid { creation_number: U64(0), account_address: Address(0000000000000000000000000000000000000000000000000000000000000000) }, sequence_number: U64(0), typ: Struct(MoveStructTag { address: Address(0000000000000000000000000000000000000000000000000000000000000001), module: IdentifierWrapper(Identifier("transaction_fee")), name: IdentifierWrapper(Identifier("FeeStatement")), generic_type_params: [] }), data: Object {"execution_gas_units": String("4"), "io_gas_units": String("0"), "storage_fee_quants": String("0"), "storage_fee_refund_quants": String("0"), "total_charge_gas_units": String("4")} }], vm_status: "EXECUTE_ENTRY_FUNCTION_CALLED_ON_NON_ENTRY_FUNCTION" }))), Action(Please try again.)
+Local: (2025-06-23 06:15:17.051656555 +00:00)	 Utc: (2025-06-23 06:15:17.051700945 UTC)
+
+CMD:
+Run
+Output:
+Command Aborted Reason(Some(Move(MoveTransactionOutput { gas_used: 4, events: [Event { guid: EventGuid { creation_number: U64(0), account_address: Address(0000000000000000000000000000000000000000000000000000000000000000) }, sequence_number: U64(0), typ: Struct(MoveStructTag { address: Address(0000000000000000000000000000000000000000000000000000000000000001), module: IdentifierWrapper(Identifier("transaction_fee")), name: IdentifierWrapper(Identifier("FeeStatement")), generic_type_params: [] }), data: Object {"execution_gas_units": String("4"), "io_gas_units": String("0"), "storage_fee_quants": String("0"), "storage_fee_refund_quants": String("0"), "total_charge_gas_units": String("4")} }], vm_status: "EXECUTE_ENTRY_FUNCTION_CALLED_ON_NON_ENTRY_FUNCTION" }))), Action(Please try again.)
+Local: (2025-06-23 06:16:03.163053770 +00:00)	 Utc: (2025-06-23 06:16:03.163112750 UTC)
+
+CMD:
+Compile
+Output:
+General: {
+  "Error": "Move compilation failed: extended checks failed"
+}
+Local: (2025-06-23 06:18:43.849625540 +00:00)	 Utc: (2025-06-23 06:18:43.849672751 UTC)
+
+CMD:
+Run
+Output:
+Command Aborted Reason(Some(Move(MoveTransactionOutput { gas_used: 3, events: [Event { guid: EventGuid { creation_number: U64(0), account_address: Address(0000000000000000000000000000000000000000000000000000000000000000) }, sequence_number: U64(0), typ: Struct(MoveStructTag { address: Address(0000000000000000000000000000000000000000000000000000000000000001), module: IdentifierWrapper(Identifier("transaction_fee")), name: IdentifierWrapper(Identifier("FeeStatement")), generic_type_params: [] }), data: Object {"execution_gas_units": String("3"), "io_gas_units": String("0"), "storage_fee_quants": String("0"), "storage_fee_refund_quants": String("0"), "total_charge_gas_units": String("3")} }], vm_status: "LINKER_ERROR" }))), Action(Please try again.)
+Local: (2025-06-23 06:18:51.556344604 +00:00)	 Utc: (2025-06-23 06:18:51.556402214 UTC)
+
+CMD:
+Run
+Output:
+Command Aborted Reason(Some(Move(MoveTransactionOutput { gas_used: 3, events: [Event { guid: EventGuid { creation_number: U64(0), account_address: Address(0000000000000000000000000000000000000000000000000000000000000000) }, sequence_number: U64(0), typ: Struct(MoveStructTag { address: Address(0000000000000000000000000000000000000000000000000000000000000001), module: IdentifierWrapper(Identifier("transaction_fee")), name: IdentifierWrapper(Identifier("FeeStatement")), generic_type_params: [] }), data: Object {"execution_gas_units": String("3"), "io_gas_units": String("0"), "storage_fee_quants": String("0"), "storage_fee_refund_quants": String("0"), "total_charge_gas_units": String("3")} }], vm_status: "LINKER_ERROR" }))), Action(Please try again.)
+Local: (2025-06-23 06:22:12.588586517 +00:00)	 Utc: (2025-06-23 06:22:12.588631747 UTC)
+
+CMD:
+Publish
+Output:
+General: Move compilation failed: Compilation error
+Local: (2025-06-23 06:22:55.031949659 +00:00)	 Utc: (2025-06-23 06:22:55.031995349 UTC)
+
+CMD:
+Publish
+Output:
+General: Move compilation failed: Compilation error
+Local: (2025-06-23 06:23:16.094644260 +00:00)	 Utc: (2025-06-23 06:23:16.094680890 UTC)
+
+CMD:
+Compile
+Output:
+General: {
+  "Error": "Move compilation failed: Compilation error"
+}
+Local: (2025-06-23 06:23:27.375672607 +00:00)	 Utc: (2025-06-23 06:23:27.375718877 UTC)
+
+CMD:
+Compile
+Output:
+General: {
+  "Error": "Move compilation failed: Compilation error"
+}
+Local: (2025-06-23 06:23:37.947449162 +00:00)	 Utc: (2025-06-23 06:23:37.947506842 UTC)
+
+CMD:
+Compile
+Output:
+{
+  "Result": [
+    "ff2233771845c442f0606761a4c12e225a17c7c6fc4d0511b9acef02d7c03106::supra_nft"
+  ]
+}
+
+
+Local: (2025-06-23 06:24:03.327463283 +00:00)	 Utc: (2025-06-23 06:24:03.327518092 UTC)
+
+CMD:
+Compile
+Output:
+General: {
+  "Error": "Move compilation failed: extended checks failed"
+}
+Local: (2025-06-23 06:25:34.842113652 +00:00)	 Utc: (2025-06-23 06:25:34.842162812 UTC)
+
+CMD:
+Publish
+Output:
+{
+  "authenticator": {
+    "Move": {
+      "Ed25519": {
+        "public_key": "0xf681d33db29d8ecef6bc85e90d2d7d32e3f21db4b73011c337aacf594b8f1350",
+        "signature": "0xb99f5a666818c987087c47f174e8c7fe90b7c1e32c2fe7e026c983dbc46cbfb70ae61a8bbcaa7e20ae3357c565fde127662a6049b01d258b804803bcbbeb4d0f"
+      }
+    }
+  },
+  "block_header": {
+    "hash": "0x121d7fbfd54b5bc597c668bcc93da37e3bd8f54220a87327ec6fe564154ab9dd",
+    "height": 19320243,
+    "timestamp": {
+      "microseconds_since_unix_epoch": 1750659930502825,
+      "utc_date_time": "2025-06-23T06:25:30.502825+00:00"
+    }
+  },
+  "hash": "0x294fb3a4992e7c4defbcf65365893d4863ca7a9f60f51160a410081b54d39d9e",
+  "header": {
+    "chain_id": 6,
+    "expiration_timestamp": {
+      "microseconds_since_unix_epoch": 1750659959000000,
+      "utc_date_time": "2025-06-23T06:25:59+00:00"
+    },
+    "sender": {
+      "Move": "0xff2233771845c442f0606761a4c12e225a17c7c6fc4d0511b9acef02d7c03106"
+    },
+    "sequence_number": 1,
+    "gas_unit_price": 100,
+    "max_gas_amount": 89
+  },
+  "payload": {
+    "Move": {
+      "type": "entry_function_payload",
+      "function": "0x1::code::publish_package_txn",
+      "type_arguments": [],
+      "arguments": [
+        "0x076d757365626f74010000000000000000404442343443304432333037353945353244373739333642383442323145323246333132304333443339463931333734394643383132413942414432334131363397031f8b08000000000002ffbd92316fdb30108577fe0a421d3a492265596a837630820408d0a929ba18464191478b88450a3c4a8dff7d48397602244b968cf770c7f7bd3b6e47211fc41e76c48a01e84f9a0d1342e7424666f0689c4d1a2f58c13222a6d03b8f51d9ee08d90aa53c2002eec8f350ea658f5a57d56ad5b6fc5bbd96755d69d6b0a66db8a825afa0aad682b7b2958d96b5626bcebbef428266956a255b71d644a33138fca77d44faeffcc3e9597ed631a88b723f8d5efcf5fa2cd02ff4479ee7f4faf7dd9fbbebcdaf2b7af3381e8c34e170a4831869e8815e869ec3d3e0681c8e9114ccf9ab584918c12ab0d20016cbdced996a47f66649dc8730e25559c6b29fba42baa1bcb1c1bbf198dfbac92a11e21acb853d97ce43111b33e2614ec3d131233875caf8549eba06374379895f62f2cd2f75f62e57ccf341a2d9ebdcd8005ec7fdbf8658fcca00182cbc900e0263ef1bf34d22be0fea60bacfdbc849c4c535dd7c83380dc6eee9d14d5f67a0f1ef1a6d40c5731b8c670e3d759e7a48cf281a218da636fe579d688a27d19f2ee305030000010973757072615f6e667489141f8b08000000000002ffc5596d6fdbc811feee5fb177457352aa3849710d023a091ac43160a04983d83d14280a892257d29e292e8f5c5a5103fff73e33fb422e453997b487f307032277e7f5999967975b9db78514dbb6914b6d92a469ab3a9d972b233e9f9c08fce185482ba39bf9aa4eb772a7eb9b2491b7b2346722fe7bfc585ce85ac8ad3246956bc18b9ae3421ab52e657d362a642dad8c4696b9ac459ae7b56c1ab1aaf556d87d03b98dc993c4a4cb4226c9e72b59ac66e29a7edd9d05b957262df3b4ce45a196755aefc50a8a784b3326ac31352c08d2aef8a715774c98dd322aed5666460f9dbddf34bba593665343a1f069baad576782df9f58418fc5475921521478918af7ba7c74d1966b051fc5b5be91a5d0a5301b29ae68bf782f0da5e234ecbe2cc56bb27926f4f267a86fc44e998d58dcc8fd42a4356c80453217adcd4ae9136325c0fd363356f6fb8b6bb1491b819d33bb6b26f25a57e233f9fbe2d1a347e2e2f29f6fcf13f13acf2171412fa163a90a65f6273e36d68cb9ca13d13efb71467b5f0300db0a0e5d9ecfc4362dd335b62ff7ec56a64b53a79909fb55b56ae6b06393b870be689fbf6231971f2eaec41bac47acc4658eff6aa5e0d4e4cde5f934ec2f81d6c4e57e169ee6b2c96a5519a5cbc397c81f3c80bd7ffecbb3d9d0d9379bb4247bed2261342febdcdd01d9898f2aefbe26b7daba2633f9b5d02bf61511e67d77b64efff02faeb77f0f35bed3b7d017dea606e62e5b23c552026452e43a6bb77895923708e0967e0440bca55db6a42165b701825251ca1d6917aa115b8500e651faf1e61d3fe5fc535a67105b79185800bc3e3f170bfe1d722e3692409241884a0bae00b619dd06eaef43840d2a07f3d98f848146359c5606af87639090d53285e62ecc5fc8f63886fee77cbbbc3d6648c30eddd6193b61c344292ed2c6e0d52fad6c289ea52eb1820293fff4f1426469512cd3ec06955ee6a242a7a48e4919f17b9aaeb2af37c856d0b253450100f8724e0dabdbf22cf8a109ed7652b5cb4235484cf7701a25fb6fb0f03d9b1517bbcb729e1f6459ad843210b7d6642ddcedcc58177a099fbaea67876d9ec333e7e79cfc9c7b3f13dbec5f30223ed81504c28ff6bdadf87769e54208ad6e274ad9a4aa688619b9228b1aff96639e8e8658a4bb54f1a88a72d205deb537aa802e08889532823362dabab40dec362d5a6947dc02f36f3ee6e982735dcb2d5735afe5091625e530009c1dd7856d2d7e432fae65a62a45157958395fa891af6ca3bd445c96886e5aa8ff201b1d46295c5cc614788a08ba7ed9ac645d33a8b0ae0366bfb4e84dc0b48dd9aa2d858292b9953cb18c23110f2ccd988207797b0b691c2199fb0a79e9d84892b82773bd7222a66727bd09ff8f862cb308170bf9091daa7971fd6a42dba68b2e8e2b31f9cebd0d2ebc9ac45aa77da346e5133ce6464fac71b310839e26fa0bcb58fcac17b4cfbef69ecc8e559c235b180693a9b8eb797b37cce1078a7826801c62366d99f1a8e9156137524887cd4b35d8c4af2641c9204dbf1512a722cd7e6915f5827e70e0d4c2bf58501d5383f04126a0a2a3f6e8528e759929f68e37110a1ffa993e6cba0fff2f7023d6b008162fba2280adc36e1f0aa2e31dbb8dca36b476f15777328097a601113e3d0eeaa5ae6bbd9bdb9ff36d6b46f04d3ed1549b33bce618e6f0e970630ffade00f8d7577d59a2fe89aaf4a62279454072b0ea94460a4fed8697e38fff249e9e45d6ba3ccdefdb159bc6b3637c58b87932c3006834680e932a2229a6c7f2586410e8ca0c719c3c406886fa478b73165b3d3612071da4d7db63c8cda265a1b8e2c75454f1935e41752fee0639f4a6a077e7186465bb5d02843cd468981e226d118e3d4952c3693f144f3dbd71a5ba183d2a2d1cdbc800375b8e3847e89a72402364a9519d1dbcc7554d222f7ddf7405676bd3f3731e4929f7ba68930774d8e68b7b4704185b8956db29a788815485decb3cd6eb8ea6ad593d9f2cbf0f67f6efa796e8d8dd941531e9c99bde27849cf4ecc5c979e37e763d9b4446429ecefa897c1aa7325a394024e754bae20539c90a421f224ab4866a19c7383964209dc6f7162b08f5b2d0b010a47fa5ea2d1f62c05bd3fce796e64a837e20732f122696d4538d93dbc5c335cfdecc3af45d95b7384187a326d3bd46d6b78af9b4abe1c8ff2383ac1fe90e4ff3e1441b72b38f92a29f1388dd5a3e2ca8425208db12a8423349eb1259bd97416f01361c9ac7e723294fc1498fbc26bbbbe6303ca9aa269c2c4288fc91bc3b54c8d3f5e94c3cf9f4b48b3f8704f587f6d33eef696350cc0914dd692f5283a12674add6aac40472938049310db85ee7fdf5c33c9ee461721f3922f57bd44fa0a9395aba6de61e3f21a0dc64c0eb0f71825b9fdeb41aed76b7b256ab7d80cd6fd2f168dab11e25f3b9b5ace9508063eb2be21f476d8a5ba32df3986d5adcc50f4378e2c731cee277012c832d1d5866fdc28e270e9a1e6e15ec41606c42b78d3f41f4e4898925443b3414421c3b37fd1d99504ff3dbb22170997d45082bb5bbc821187b6ee07d0360e4a70acd48716b5c386a614f930b7716b5c72c7b16f5e88f8c1e484dc6c8c54b11c9fe2ae6d2857d903cb4e4ac2da8c0dc6d4aa874b4fe218d081bc1b4646dbe9b581c2709dae5da6c260f86489f8a5774d879323deb4515555f48ba84d1a53c229f4262df3849f626082178e855daac1eaa646d270349dd6512444c22c9e28fe2e9932753e6a88c661b06a4959723a595ac43c78b42476765e9af0d437f8b54833fccfd9056f931a6eb07774456055f8f60ceaa8c292d572751393c277d97e7434d101fae896326dabbdf8b2de2e67f65af7e9567ff547597e781fd93389ac5aaecf3a8710a9b0c917c7a0fbb3d5c7c2fe73d5c3e4a88bbebc3f899bb061eca08249d43f1773ff6f80eb626185008786f47b9e312ba1e5e9350c04068f8467ddf7dbac1cd3edfbd46a7bd73ee06342beda84ec04d75a38c9d996b09bde039ddec2483f695a256be074e7009a5f990dff0d138dcd8002fca7d7688d4bd0659c29037fcd9a2f11f4876ba2de866b9cc0b8b67508b1641c0978e6c9352de9ddc48167d52da6046a56683f8f33ef68fc7e08243062f9484681e4885bb5d4223a51514e0926824af6c36aa3a8dc2fa764b1dd5c58ca381d6c47b0067e2884322dbbbd89e74f7e5f715c269f819b833794117dec0ff8e3834f3c6f8a010aeba8f43e99ba0fef5453484f9dd9072fb5ba25b85137cff92882893bf8705df4fdd37070f5d5c4b2002febed5d2a2b01d4d0298a04f615581f3c44617a0cda71ec9013385d6376dc5d22db61f51a2f3f0110c6a5c0b8306c82730e3f894aaf5c620db3b0626da8e6ee92ecbb1805aae41ebc0f9010784a6debbc2722a7ee8aee3c3353de334ed23b59605efd30e5c8d2ff3adc654aa885853818199ec43130cd8a30bcf9a3828155d7418a163c8b12be6c990754f4747fc18958e6fa0fa89c8b86c979617db434cb691308d0c46719bd625d793320fa75f49b2be89607d815c3d741cc68fefafe72f0ee17727ff052e59e852661f000000000500000000000000000000000000000000000000000000000000000000000000010b4170746f735374646c696200000000000000000000000000000000000000000000000000000000000000010a4d6f76655374646c696200000000000000000000000000000000000000000000000000000000000000010e53757072614672616d65776f726b00000000000000000000000000000000000000000000000000000000000000010b53757072615374646c6962186ba2ba88f4a14ca51f6ce42702c7ebdf6bfcf738d897cc98b986ded6f1219e08537570726156726600",
+        [
+          "0xa11ceb0b060000000c01000c020c1c03284a04720a057c8b01078702c90208d0046006b0053f10ef05240a93063b0cce06ea020db8090e00000101010201030104020500060c00000707000008070000090e00030c07000411040203010001000a000100000b020300000d040300000e050300041a0708020300021b020900041c030a020304041d0c03020300031e0d0e00051f0f00000520111200042113140203000122170301060406060607060b060c16010301080201060c0004060c0a020804080407060c030a020a020502030203080202060b0502090009010900010609010105010b05020900090103030708000503070b05020900090109000901010a0201080407060c050804080402030305070800080308020f0a0f06030a020a02050203010a0f02070b0502090009010900010901010f0108010109000973757072615f6e6674056576656e74067369676e657206737472696e67057461626c650973757072615f767266094c6173744e6f6e6365094e46544d696e7465641250656e64696e674d696e74526571756573740853757072614e4654186765745f70656e64696e675f6d696e745f726571756573740b696e69745f6d6f64756c6506537472696e67046d696e740c726e675f63616c6c6261636b056e6f6e63651570656e64696e675f6d696e745f7265717565737473055461626c65096f626a6563745f69640763726561746f72046e616d6509697066735f686173680672617269747909726563697069656e740b6465736372697074696f6e056f776e657206626f72726f770a616464726573735f6f66036e65770361646404757466380b726e675f726571756573740f7665726966795f63616c6c6261636b0672656d6f766504656d6974ff2233771845c442f0606761a4c12e225a17c7c6fc4d0511b9acef02d7c031060000000000000000000000000000000000000000000000000000000000000001186ba2ba88f4a14ca51f6ce42702c7ebdf6bfcf738d897cc98b986ded6f1219e0520ff2233771845c442f0606761a4c12e225a17c7c6fc4d0511b9acef02d7c031060a020a0973757072615f6e66740a020d0c726e675f63616c6c6261636b126170746f733a3a6d657461646174615f7631100001094e46544d696e746564010400000002020f03100b050203080201020512031305140804150a02160f0202041705150a021408041808040302061203150a02140804180804160f19050001000100030707002b0010000b003800140201000000030e0a001105290020040b0b00060000000000000000380112002d00050d0b00010202010401000b270a0011050c0607002a000c050a05100114060100000000000000160a050f01150a051001140c040b050f000a040b060b010b020b03120238020b000700070111080702110831010b0406010000000000000011090102030104010010450b010b020b030b040b050a06110a0c0b07002a000c070a070f000b0638030c090e0b4115060000000000000000240416051a0b0701060000000000000000270e0b0600000000000000004215144a6400000000000000000000000000000000000000000000000000000000000000194a0100000000000000000000000000000000000000000000000000000000000000160c0a0b071001140e091002140e091003140e091004140a0a0e0910051412030c080e081006140e091005140e091003140e091002140b0a1201380402000100000201020202030200030000"
+        ]
+      ]
+    }
+  },
+  "output": {
+    "Move": {
+      "gas_used": 89,
+      "events": [
+        {
+          "guid": {
+            "creation_number": "0",
+            "account_address": "0x0"
+          },
+          "sequence_number": "0",
+          "type": "0x1::code::PublishPackage",
+          "data": {
+            "code_address": "0xff2233771845c442f0606761a4c12e225a17c7c6fc4d0511b9acef02d7c03106",
+            "is_upgrade": true
+          }
+        },
+        {
+          "guid": {
+            "creation_number": "0",
+            "account_address": "0x0"
+          },
+          "sequence_number": "0",
+          "type": "0x1::transaction_fee::FeeStatement",
+          "data": {
+            "execution_gas_units": "10",
+            "io_gas_units": "79",
+            "storage_fee_quants": "0",
+            "storage_fee_refund_quants": "0",
+            "total_charge_gas_units": "89"
+          }
+        }
+      ],
+      "vm_status": "Executed successfully"
+    }
+  },
+  "status": "Success"
+}
+
+
+Local: (2025-06-23 06:25:42.002431975 +00:00)	 Utc: (2025-06-23 06:25:42.002483545 UTC)
+
+CMD:
+Run
+Output:
+Command Aborted Reason(Some(Move(MoveTransactionOutput { gas_used: 8, events: [Event { guid: EventGuid { creation_number: U64(0), account_address: Address(0000000000000000000000000000000000000000000000000000000000000000) }, sequence_number: U64(0), typ: Struct(MoveStructTag { address: Address(0000000000000000000000000000000000000000000000000000000000000001), module: IdentifierWrapper(Identifier("transaction_fee")), name: IdentifierWrapper(Identifier("FeeStatement")), generic_type_params: [] }), data: Object {"execution_gas_units": String("6"), "io_gas_units": String("2"), "storage_fee_quants": String("0"), "storage_fee_refund_quants": String("0"), "total_charge_gas_units": String("8")} }], vm_status: "Move abort in 0x186ba2ba88f4a14ca51f6ce42702c7ebdf6bfcf738d897cc98b986ded6f1219e::supra_vrf: EINVALID_CLIENT_CONTRACT(0x50004): Client or there contract is not whitelisted" }))), Action(Please try again.)
+Local: (2025-06-23 06:26:33.886341454 +00:00)	 Utc: (2025-06-23 06:26:33.886393084 UTC)
+
+CMD:
+Run
+Output:
+Command Aborted Reason(Some(Move(MoveTransactionOutput { gas_used: 3, events: [Event { guid: EventGuid { creation_number: U64(0), account_address: Address(0000000000000000000000000000000000000000000000000000000000000000) }, sequence_number: U64(0), typ: Struct(MoveStructTag { address: Address(0000000000000000000000000000000000000000000000000000000000000001), module: IdentifierWrapper(Identifier("transaction_fee")), name: IdentifierWrapper(Identifier("FeeStatement")), generic_type_params: [] }), data: Object {"execution_gas_units": String("3"), "io_gas_units": String("0"), "storage_fee_quants": String("0"), "storage_fee_refund_quants": String("0"), "total_charge_gas_units": String("3")} }], vm_status: "LINKER_ERROR" }))), Action(Please try again.)
+Local: (2025-06-23 06:26:42.444673250 +00:00)	 Utc: (2025-06-23 06:26:42.444731360 UTC)
+
+CMD:
+Run
+Output:
+Command Aborted Reason(Some(Move(MoveTransactionOutput { gas_used: 3, events: [Event { guid: EventGuid { creation_number: U64(0), account_address: Address(0000000000000000000000000000000000000000000000000000000000000000) }, sequence_number: U64(0), typ: Struct(MoveStructTag { address: Address(0000000000000000000000000000000000000000000000000000000000000001), module: IdentifierWrapper(Identifier("transaction_fee")), name: IdentifierWrapper(Identifier("FeeStatement")), generic_type_params: [] }), data: Object {"execution_gas_units": String("3"), "io_gas_units": String("0"), "storage_fee_quants": String("0"), "storage_fee_refund_quants": String("0"), "total_charge_gas_units": String("3")} }], vm_status: "LINKER_ERROR" }))), Action(Please try again.)
+Local: (2025-06-23 06:28:18.050053962 +00:00)	 Utc: (2025-06-23 06:28:18.050113872 UTC)
+
+CMD:
+Run
+Output:
+Command Aborted Reason(Some(Move(MoveTransactionOutput { gas_used: 3, events: [Event { guid: EventGuid { creation_number: U64(0), account_address: Address(0000000000000000000000000000000000000000000000000000000000000000) }, sequence_number: U64(0), typ: Struct(MoveStructTag { address: Address(0000000000000000000000000000000000000000000000000000000000000001), module: IdentifierWrapper(Identifier("transaction_fee")), name: IdentifierWrapper(Identifier("FeeStatement")), generic_type_params: [] }), data: Object {"execution_gas_units": String("3"), "io_gas_units": String("0"), "storage_fee_quants": String("0"), "storage_fee_refund_quants": String("0"), "total_charge_gas_units": String("3")} }], vm_status: "LINKER_ERROR" }))), Action(Please try again.)
+Local: (2025-06-23 06:30:54.109852852 +00:00)	 Utc: (2025-06-23 06:30:54.109874822 UTC)
+
+CMD:
+Publish
+Output:
+General: Move compilation failed: Unable to resolve packages for package 'musebot': Unable to resolve named address 'supra_addr' in package 'musebot' when resolving dependencies: Attempted to assign a different value '0x1' to an a already-assigned named address '0x186ba2ba88f4a14ca51f6ce42702c7ebdf6bfcf738d897cc98b986ded6f1219e'
+Local: (2025-06-23 06:31:44.917210394 +00:00)	 Utc: (2025-06-23 06:31:44.917232114 UTC)
+
+CMD:
+Publish
+Output:
+General: Move compilation failed: Unable to resolve packages for package 'musebot': Unable to resolve named address 'supra_addr' in package 'musebot' when resolving dependencies: Attempted to assign a different value '0x1' to an a already-assigned named address '0x186ba2ba88f4a14ca51f6ce42702c7ebdf6bfcf738d897cc98b986ded6f1219e'
+Local: (2025-06-23 06:32:34.501593685 +00:00)	 Utc: (2025-06-23 06:32:34.501656565 UTC)
+
+CMD:
+Publish
+Output:
+{
+  "authenticator": {
+    "Move": {
+      "Ed25519": {
+        "public_key": "0xf681d33db29d8ecef6bc85e90d2d7d32e3f21db4b73011c337aacf594b8f1350",
+        "signature": "0xa904197799b8da430f0430475cba45900072f1a150cbbb8eada8b0cb6ff6fa4043455b8a63aa1c98a880e1ee67860fec2070c5d6e0e71ae3cf6efc3bf7b7cb09"
+      }
+    }
+  },
+  "block_header": {
+    "hash": "0xcb5e79b06698d31767006380da47db518af36945d348b46638fb664dee81c864",
+    "height": 19320800,
+    "timestamp": {
+      "microseconds_since_unix_epoch": 1750660352341074,
+      "utc_date_time": "2025-06-23T06:32:32.341074+00:00"
+    }
+  },
+  "hash": "0x527a10d3190ceba250db118b3991d981d1bff118836cfc336e0e65832b45a966",
+  "header": {
+    "chain_id": 6,
+    "expiration_timestamp": {
+      "microseconds_since_unix_epoch": 1750660380000000,
+      "utc_date_time": "2025-06-23T06:33:00+00:00"
+    },
+    "sender": {
+      "Move": "0xff2233771845c442f0606761a4c12e225a17c7c6fc4d0511b9acef02d7c03106"
+    },
+    "sequence_number": 2,
+    "gas_unit_price": 100,
+    "max_gas_amount": 89
+  },
+  "payload": {
+    "Move": {
+      "type": "entry_function_payload",
+      "function": "0x1::code::publish_package_txn",
+      "type_arguments": [],
+      "arguments": [
+        "0x076d757365626f74010000000000000000403333443738373242373945303142394244314144433645314444304537314239313030343531384546433730313336433931373334343536424330373346394298031f8b08000000000002ffbd92316fdb30108577fe0a421d3a492265596a837630820408d0a929ba18464191478b88450a3c4a8dff7d48397602244b968cf770c7f73dde6d47211fc41e76c48a01e84f9a0d1342e7424666f0689c4d1a2f58c13222a6d03b8f51d9ee08d90aa53c2002eec8f350ea658f5a57d56ad5b6fc5bbd96755d69d6b0a66db8a825afa0aad682b7b2958d96b5626bcebbef428266956a255b71d644a33138fca77d44faeffcc3e9597ed631a88b723f8d5efcf5fa2cd02ff4479ee7f4faf7dd9fbbebcdaf2b7af3381e8c34e170a4831869e8815e869ec3d3e0681c26319382397f952b09235805561ac06219bc3d63edc8de2c91fb1046bc2acb58f65357483794373678371ef35b37592542fcc77281cfa5f350c4c68c7898d37074cc084e9d323e95a7aec1cd505ef297987cf34b9dbdcb15037d9068f63a373680d77101af2116bf3200060b2fa483c0d8fbc67c9388ef833a98eef37ee424e2e29a96be419c0663f7f4e8a6af33d078bc461b5071df06e39e434f9da71ed2338a4648a3a98d07ab134df104becf23bf06030000010973757072615f6e667489141f8b08000000000002ffc5596d6fdbc811feee5fb177457352aa3849710d023a091ac43160a04983d83d14280a892257d29e292e8f5c5a5103fff73e33fb422e453997b487f307032277e7f5999967975b9db78514dbb6914b6d92a469ab3a9d972b233e9f9c08fce185482ba39bf9aa4eb772a7eb9b2491b7b2346722fe7bfc585ce85ac8ad3246956bc18b9ae3421ab52e657d362a642dad8c4696b9ac459ae7b56c1ab1aaf556d87d03b98dc993c4a4cb4226c9e72b59ac66e29a7edd9d05b957262df3b4ce45a196755aefc50a8a784b3326ac31352c08d2aef8a715774c98dd322aed5666460f9dbddf34bba593665343a1f069baad576782df9f58418fc5475921521478918af7ba7c74d1966b051fc5b5be91a5d0a5301b29ae68bf782f0da5e234ecbe2cc56bb27926f4f267a86fc44e998d58dcc8fd42a4356c80453217adcd4ae9136325c0fd363356f6fb8b6bb1491b819d33bb6b26f25a57e233f9fbe2d1a347e2e2f29f6fcf13f13acf2171412fa163a90a65f6273e36d68cb9ca13d13efb71467b5f0300db0a0e5d9ecfc4362dd335b62ff7ec56a64b53a79909fb55b56ae6b06393b870be689fbf6231971f2eaec41bac47acc4658eff6aa5e0d4e4cde5f934ec2f81d6c4e57e169ee6b2c96a5519a5cbc397c81f3c80bd7ffecbb3d9d0d9379bb4247bed2261342febdcdd01d9898f2aefbe26b7daba2633f9b5d02bf61511e67d77b64efff02faeb77f0f35bed3b7d017dea606e62e5b23c552026452e43a6bb77895923708e0967e0440bca55db6a42165b701825251ca1d6917aa115b8500e651faf1e61d3fe5fc535a67105b79185800bc3e3f170bfe1d722e3692409241884a0bae00b619dd06eaef43840d2a07f3d98f848146359c5606af87639090d53285e62ecc5fc8f63886fee77cbbbc3d6648c30eddd6193b61c344292ed2c6e0d52fad6c289ea52eb1820293fff4f1426469512cd3ec06955ee6a242a7a48e4919f17b9aaeb2af37c856d0b253450100f8724e0dabdbf22cf8a109ed7652b5cb4235484cf7701a25fb6fb0f03d9b1517bbcb729e1f6459ad843210b7d6642ddcedcc58177a099fbaea67876d9ec333e7e79cfc9c7b3f13dbec5f30223ed81504c28ff6bdadf87769e54208ad6e274ad9a4aa688619b9228b1aff96639e8e8658a4bb54f1a88a72d205deb537aa802e08889532823362dabab40dec362d5a6947dc02f36f3ee6e982735dcb2d5735afe5091625e530009c1dd7856d2d7e432fae65a62a45157958395fa891af6ca3bd445c96886e5aa8ff201b1d46295c5cc614788a08ba7ed9ac645d33a8b0ae0366bfb4e84dc0b48dd9aa2d858292b9953cb18c23110f2ccd988207797b0b691c2199fb0a79e9d84892b82773bd7222a66727bd09ff8f862cb308170bf9091daa7971fd6a42dba68b2e8e2b31f9cebd0d2ebc9ac45aa77da346e5133ce6464fac71b310839e26fa0bcb58fcac17b4cfbef69ecc8e559c235b180693a9b8eb797b37cce1078a7826801c62366d99f1a8e9156137524887cd4b35d8c4af2641c9204dbf1512a722cd7e6915f5827e70e0d4c2bf58501d5383f04126a0a2a3f6e8528e759929f68e37110a1ffa993e6cba0fff2f7023d6b008162fba2280adc36e1f0aa2e31dbb8dca36b476f15777328097a601113e3d0eeaa5ae6bbd9bdb9ff36d6b46f04d3ed1549b33bce618e6f0e970630ffade00f8d7577d59a2fe89aaf4a62279454072b0ea94460a4fed8697e38fff249e9e45d6ba3ccdefdb159bc6b3637c58b87932c3006834680e932a2229a6c7f2586410e8ca0c719c3c406886fa478b73165b3d3612071da4d7db63c8cda265a1b8e2c75454f1935e41752fee0639f4a6a077e7186465bb5d02843cd468981e226d118e3d4952c3693f144f3dbd71a5ba183d2a2d1cdbc800375b8e3847e89a72402364a9519d1dbcc7554d222f7ddf7405676bd3f3731e4929f7ba68930774d8e68b7b4704185b8956db29a788815485decb3cd6eb8ea6ad593d9f2cbf0f67f6efa796e8d8dd941531e9c99bde27849cf4ecc5c979e37e763d9b4446429ecefa897c1aa7325a394024e754bae20539c90a421f224ab4866a19c7383964209dc6f7162b08f5b2d0b010a47fa5ea2d1f62c05bd3fce796e64a837e20732f122696d4538d93dbc5c335cfdecc3af45d95b7384187a326d3bd46d6b78af9b4abe1c8ff2383ac1fe90e4ff3e1441b72b38f92a29f1388dd5a3e2ca8425208db12a8423349eb1259bd97416f01361c9ac7e723294fc1498fbc26bbbbe6303ca9aa269c2c4288fc91bc3b54c8d3f5e94c3cf9f4b48b3f8704f587f6d33eef696350cc0914dd692f5283a12674add6aac40472938049310db85ee7fdf5c33c9ee461721f3922f57bd44fa0a9395aba6de61e3f21a0dc64c0eb0f71825b9fdeb41aed76b7b256ab7d80cd6fd2f168dab11e25f3b9b5ace9508063eb2be21f476d8a5ba32df3986d5adcc50f4378e2c731cee277012c832d1d5866fdc28e270e9a1e6e15ec41606c42b78d3f41f4e4898925443b3414421c3b37fd1d99504ff3dbb22170997d45082bb5bbc821187b6ee07d0360e4a70acd48716b5c386a614f930b7716b5c72c7b16f5e88f8c1e484dc6c8c54b11c9fe2ae6d2857d903cb4e4ac2da8c0dc6d4aa874b4fe218d081bc1b4646dbe9b581c2709dae5da6c260f86489f8a5774d879323deb4515555f48ba84d1a53c229f4262df3849f626082178e855daac1eaa646d270349dd6512444c22c9e28fe2e9932753e6a88c661b06a4959723a595ac43c78b42476765e9af0d437f8b54833fccfd9056f931a6eb07774456055f8f60ceaa8c292d572751393c277d97e7434d101fae896326dabbdf8b2de2e67f65af7e9567ff547597e781fd93389ac5aaecf3a8710a9b0c917c7a0fbb3d5c7c2fe73d5c3e4a88bbebc3f899bb061eca08249d43f1773ff6f80eb626185008786f47b9e312ba1e5e9350c04068f8467ddf7dbac1cd3edfbd46a7bd73ee06342beda84ec04d75a38c9d996b09bde039ddec2483f695a256be074e7009a5f990dff0d138dcd8002fca7d7688d4bd0659c29037fcd9a2f11f4876ba2de866b9cc0b8b67508b1641c0978e6c9352de9ddc48167d52da6046a56683f8f33ef68fc7e08243062f9484681e4885bb5d4223a51514e0926824af6c36aa3a8dc2fa764b1dd5c58ca381d6c47b0067e2884322dbbbd89e74f7e5f715c269f819b833794117dec0ff8e3834f3c6f8a010aeba8f43e99ba0fef5453484f9dd9072fb5ba25b85137cff92882893bf8705df4fdd37070f5d5c4b2002febed5d2a2b01d4d0298a04f615581f3c44617a0cda71ec9013385d6376dc5d22db61f51a2f3f0110c6a5c0b8306c82730e3f894aaf5c620db3b0626da8e6ee92ecbb1805aae41ebc0f9010784a6debbc2722a7ee8aee3c3353de334ed23b59605efd30e5c8d2ff3adc654aa885853818199ec43130cd8a30bcf9a3828155d7418a163c8b12be6c990754f4747fc18958e6fa0fa89c8b86c979617db434cb691308d0c46719bd625d793320fa75f49b2be89607d815c3d741cc68fefafe72f0ee17727ff052e59e852661f000000000500000000000000000000000000000000000000000000000000000000000000010b4170746f735374646c696200000000000000000000000000000000000000000000000000000000000000010a4d6f76655374646c696200000000000000000000000000000000000000000000000000000000000000010e53757072614672616d65776f726b00000000000000000000000000000000000000000000000000000000000000010b53757072615374646c6962186ba2ba88f4a14ca51f6ce42702c7ebdf6bfcf738d897cc98b986ded6f1219e08537570726156726600",
+        [
+          "0xa11ceb0b060000000c01000c020c1c03284a04720a057c8b01078702c90208d0046006b0053f10ef05240a93063b0cce06ea020db8090e00000101010201030104020500060c00000707000008070000090e00030c07000411040203010001000a000100000b020300000d040300000e050300041a0708020300021b020900041c030a020304041d0c03020300031e0d0e00051f0f00000520111200042113140203000122170301060406060607060b060c16010301080201060c0004060c0a020804080407060c030a020a020502030203080202060b0502090009010900010609010105010b05020900090103030708000503070b05020900090109000901010a0201080407060c050804080402030305070800080308020f0a0f06030a020a02050203010a0f02070b0502090009010900010901010f0108010109000973757072615f6e6674056576656e74067369676e657206737472696e67057461626c650973757072615f767266094c6173744e6f6e6365094e46544d696e7465641250656e64696e674d696e74526571756573740853757072614e4654186765745f70656e64696e675f6d696e745f726571756573740b696e69745f6d6f64756c6506537472696e67046d696e740c726e675f63616c6c6261636b056e6f6e63651570656e64696e675f6d696e745f7265717565737473055461626c65096f626a6563745f69640763726561746f72046e616d6509697066735f686173680672617269747909726563697069656e740b6465736372697074696f6e056f776e657206626f72726f770a616464726573735f6f66036e65770361646404757466380b726e675f726571756573740f7665726966795f63616c6c6261636b0672656d6f766504656d6974ff2233771845c442f0606761a4c12e225a17c7c6fc4d0511b9acef02d7c031060000000000000000000000000000000000000000000000000000000000000001186ba2ba88f4a14ca51f6ce42702c7ebdf6bfcf738d897cc98b986ded6f1219e0520ff2233771845c442f0606761a4c12e225a17c7c6fc4d0511b9acef02d7c031060a020a0973757072615f6e66740a020d0c726e675f63616c6c6261636b126170746f733a3a6d657461646174615f7631100001094e46544d696e746564010400000002020f03100b050203080201020512031305140804150a02160f0202041705150a021408041808040302061203150a02140804180804160f19050001000100030707002b0010000b003800140201000000030e0a001105290020040b0b00060000000000000000380112002d00050d0b00010202010401000b270a0011050c0607002a000c050a05100114060100000000000000160a050f01150a051001140c040b050f000a040b060b010b020b03120238020b000700070111080702110831010b0406010000000000000011090102030104010010450b010b020b030b040b050a06110a0c0b07002a000c070a070f000b0638030c090e0b4115060000000000000000240416051a0b0701060000000000000000270e0b0600000000000000004215144a6400000000000000000000000000000000000000000000000000000000000000194a0100000000000000000000000000000000000000000000000000000000000000160c0a0b071001140e091002140e091003140e091004140a0a0e0910051412030c080e081006140e091005140e091003140e091002140b0a1201380402000100000201020202030200030000"
+        ]
+      ]
+    }
+  },
+  "output": {
+    "Move": {
+      "gas_used": 89,
+      "events": [
+        {
+          "guid": {
+            "creation_number": "0",
+            "account_address": "0x0"
+          },
+          "sequence_number": "0",
+          "type": "0x1::code::PublishPackage",
+          "data": {
+            "code_address": "0xff2233771845c442f0606761a4c12e225a17c7c6fc4d0511b9acef02d7c03106",
+            "is_upgrade": true
+          }
+        },
+        {
+          "guid": {
+            "creation_number": "0",
+            "account_address": "0x0"
+          },
+          "sequence_number": "0",
+          "type": "0x1::transaction_fee::FeeStatement",
+          "data": {
+            "execution_gas_units": "10",
+            "io_gas_units": "79",
+            "storage_fee_quants": "0",
+            "storage_fee_refund_quants": "0",
+            "total_charge_gas_units": "89"
+          }
+        }
+      ],
+      "vm_status": "Executed successfully"
+    }
+  },
+  "status": "Success"
+}
+
+
+Local: (2025-06-23 06:33:15.327506610 +00:00)	 Utc: (2025-06-23 06:33:15.327560090 UTC)
+
+CMD:
+Run
+Output:
+Command Aborted Reason(Some(Move(MoveTransactionOutput { gas_used: 3, events: [Event { guid: EventGuid { creation_number: U64(0), account_address: Address(0000000000000000000000000000000000000000000000000000000000000000) }, sequence_number: U64(0), typ: Struct(MoveStructTag { address: Address(0000000000000000000000000000000000000000000000000000000000000001), module: IdentifierWrapper(Identifier("transaction_fee")), name: IdentifierWrapper(Identifier("FeeStatement")), generic_type_params: [] }), data: Object {"execution_gas_units": String("3"), "io_gas_units": String("0"), "storage_fee_quants": String("0"), "storage_fee_refund_quants": String("0"), "total_charge_gas_units": String("3")} }], vm_status: "LINKER_ERROR" }))), Action(Please try again.)
+Local: (2025-06-23 06:34:29.804590796 +00:00)	 Utc: (2025-06-23 06:34:29.804639916 UTC)
+
+CMD:
+Run
+Output:
+Command Aborted Reason(Some(Move(MoveTransactionOutput { gas_used: 3, events: [Event { guid: EventGuid { creation_number: U64(0), account_address: Address(0000000000000000000000000000000000000000000000000000000000000000) }, sequence_number: U64(0), typ: Struct(MoveStructTag { address: Address(0000000000000000000000000000000000000000000000000000000000000001), module: IdentifierWrapper(Identifier("transaction_fee")), name: IdentifierWrapper(Identifier("FeeStatement")), generic_type_params: [] }), data: Object {"execution_gas_units": String("3"), "io_gas_units": String("0"), "storage_fee_quants": String("0"), "storage_fee_refund_quants": String("0"), "total_charge_gas_units": String("3")} }], vm_status: "LINKER_ERROR" }))), Action(Please try again.)
+Local: (2025-06-23 06:35:29.676967804 +00:00)	 Utc: (2025-06-23 06:35:29.677011984 UTC)
+
+CMD:
+Run
+Output:
+Command Aborted Reason(Some(Move(MoveTransactionOutput { gas_used: 3, events: [Event { guid: EventGuid { creation_number: U64(0), account_address: Address(0000000000000000000000000000000000000000000000000000000000000000) }, sequence_number: U64(0), typ: Struct(MoveStructTag { address: Address(0000000000000000000000000000000000000000000000000000000000000001), module: IdentifierWrapper(Identifier("transaction_fee")), name: IdentifierWrapper(Identifier("FeeStatement")), generic_type_params: [] }), data: Object {"execution_gas_units": String("3"), "io_gas_units": String("0"), "storage_fee_quants": String("0"), "storage_fee_refund_quants": String("0"), "total_charge_gas_units": String("3")} }], vm_status: "LINKER_ERROR" }))), Action(Please try again.)
+Local: (2025-06-23 06:36:07.530595783 +00:00)	 Utc: (2025-06-23 06:36:07.530644853 UTC)
+
+CMD:
+Run
+Output:
+Command Aborted Reason(Some(Move(MoveTransactionOutput { gas_used: 3, events: [Event { guid: EventGuid { creation_number: U64(0), account_address: Address(0000000000000000000000000000000000000000000000000000000000000000) }, sequence_number: U64(0), typ: Struct(MoveStructTag { address: Address(0000000000000000000000000000000000000000000000000000000000000001), module: IdentifierWrapper(Identifier("transaction_fee")), name: IdentifierWrapper(Identifier("FeeStatement")), generic_type_params: [] }), data: Object {"execution_gas_units": String("3"), "io_gas_units": String("0"), "storage_fee_quants": String("0"), "storage_fee_refund_quants": String("0"), "total_charge_gas_units": String("3")} }], vm_status: "LINKER_ERROR" }))), Action(Please try again.)
+Local: (2025-06-23 06:36:17.442851532 +00:00)	 Utc: (2025-06-23 06:36:17.442905892 UTC)
+
+CMD:
+Run
+Output:
+Command Aborted Reason(Some(Move(MoveTransactionOutput { gas_used: 3, events: [Event { guid: EventGuid { creation_number: U64(0), account_address: Address(0000000000000000000000000000000000000000000000000000000000000000) }, sequence_number: U64(0), typ: Struct(MoveStructTag { address: Address(0000000000000000000000000000000000000000000000000000000000000001), module: IdentifierWrapper(Identifier("transaction_fee")), name: IdentifierWrapper(Identifier("FeeStatement")), generic_type_params: [] }), data: Object {"execution_gas_units": String("3"), "io_gas_units": String("0"), "storage_fee_quants": String("0"), "storage_fee_refund_quants": String("0"), "total_charge_gas_units": String("3")} }], vm_status: "LINKER_ERROR" }))), Action(Please try again.)
+Local: (2025-06-23 06:38:12.675087185 +00:00)	 Utc: (2025-06-23 06:38:12.675168325 UTC)
+
+CMD:
+Run
+Output:
+Command Aborted Reason(Some(Move(MoveTransactionOutput { gas_used: 3, events: [Event { guid: EventGuid { creation_number: U64(0), account_address: Address(0000000000000000000000000000000000000000000000000000000000000000) }, sequence_number: U64(0), typ: Struct(MoveStructTag { address: Address(0000000000000000000000000000000000000000000000000000000000000001), module: IdentifierWrapper(Identifier("transaction_fee")), name: IdentifierWrapper(Identifier("FeeStatement")), generic_type_params: [] }), data: Object {"execution_gas_units": String("3"), "io_gas_units": String("0"), "storage_fee_quants": String("0"), "storage_fee_refund_quants": String("0"), "total_charge_gas_units": String("3")} }], vm_status: "LINKER_ERROR" }))), Action(Please try again.)
+Local: (2025-06-23 16:28:07.260424259 +00:00)	 Utc: (2025-06-23 16:28:07.260484409 UTC)
+
+CMD:
+Publish
+Output:
+{
+  "authenticator": {
+    "Move": {
+      "Ed25519": {
+        "public_key": "0xf681d33db29d8ecef6bc85e90d2d7d32e3f21db4b73011c337aacf594b8f1350",
+        "signature": "0x7546844a3619605879569c2457cabc9c8604a42bafe1f85d3d3743d7fdea39bbf62fd06b1089ae296077de2be9b250434280a6b3a98c0970a78794769c16e10c"
+      }
+    }
+  },
+  "block_header": {
+    "hash": "0xb3f3aced7092cd70ad5e4f14b500a3e8e59b1943ef0ed6790c5da8e7988cff76",
+    "height": 19369280,
+    "timestamp": {
+      "microseconds_since_unix_epoch": 1750696083118818,
+      "utc_date_time": "2025-06-23T16:28:03.118818+00:00"
+    }
+  },
+  "hash": "0x3fe3588e0a342364d14093719828fadf7618a14ad83dc4480fdd7abea065e52d",
+  "header": {
+    "chain_id": 6,
+    "expiration_timestamp": {
+      "microseconds_since_unix_epoch": 1750696108000000,
+      "utc_date_time": "2025-06-23T16:28:28+00:00"
+    },
+    "sender": {
+      "Move": "0xff2233771845c442f0606761a4c12e225a17c7c6fc4d0511b9acef02d7c03106"
+    },
+    "sequence_number": 5,
+    "gas_unit_price": 100,
+    "max_gas_amount": 89
+  },
+  "payload": {
+    "Move": {
+      "type": "entry_function_payload",
+      "function": "0x1::code::publish_package_txn",
+      "type_arguments": [],
+      "arguments": [
+        "0x076d757365626f74010000000000000000404341463235454144394437383734383933444442363930353331313034324432334543444130363543453733383434343335414232463631433539423439443598031f8b08000000000002ffbd92316fdb30108577fe0a421d3a492265596a837630820408d0a929ba18464191478b88450a3c4a8dff7d48397602244b968cf770c7f73dde6d47211fc41e76c48a01e84f9a0d1342e7424666f0689c4d1a2f58c13222a6d03b8f51d9ee08d90aa53c2002eec8f350ea658f5a57d56ad5b6fc5bbd96755d69d6b0a66db8a825afa0aad682b7b2958d96b5626bcebbef428266956a255b71d644a33138fca77d44faeffcc3e9597ed631a88b723f8d5efcf5fa2cd02ff4479ee7f4faf7dd9fbbebcdaf2b7af3381e8c34e170a4831869e8815e869ec3d3e0681c26319382397f952b09235805561ac06219bc3d63edc8de2c91fb1046bc2acb58f65357483794373678371ef35b37592542fcc77281cfa5f350c4c68c7898d37074cc084e9d323e95a7aec1cd505ef297987cf34b9dbdcb15037d9068f63a373680d77101af2116bf3200060b2fa483c0d8fbc67c9388ef833a98eef37ee424e2e29a96be419c0663f7f4e8a6af33d078bc461b5071df06e39e434f9da71ed2338a4648a3a98d07ab134df104becf23bf06030000010973757072615f6e6674ff131f8b08000000000002ffc5596d6fdbc811feee5fb177457352aa3849d11e023a091ac43160a07183d83d14280a892257d29e292e8f5c5a5103fff77b66f6855c8a722e873b9c3f1810973b333bf3ccccb3c3adcedb428a6ddbc8a53649d2b4559dcecb95119f4f4e04feb020d2cae866beaad3addce9fa3649e49d2ccd9988ff9e3e1517ba1672ab8c51e55af04bcd71218d5a97b23e1b15b296564623cb5cd622cdf35a368d58d57a2becbe81dcc6e44962d2652193e4f3b52c56337143bfeecf82dc6b9396795ae7a250cb3aadf7620545bca51913d6981a160469d7fcd38a3b26cc6e1995762733a387877dd834bba593664343aef061baab576782d74faca0a7e2a3ace02972bc48c5952e9f5cb4e55ae18ce246dfca52e852988d14d7b45f5c4943a1380dbb2f4bf1866c9e09bdfc11ea1bb153662316b772bf10690d1b6091cc456ba352fac05809387e9b192bfbeae2466cd24660e7ccee9a89bcd695f86c6da53fab63aef244b4dfff6d468e7883e86e2b587b793e13dbb44cd7d0b6dcb3cd992e4d9d6626ec57d5aa9943c92671be7ad9be78cd622e3f5c5c8bb7781f8e109739feab9582c593b797e7d3b0bf04141317d859789acb26ab5565942e0f17111c65f6b0f7af7fff7ed63bc90e884cbc37d8841bb2b8ad6bb28097855ef131e019de776ff3eb4fffe53cf91fed79f9e4c9137171f99f77e78978afef70f4b09a1a58b26c8d144b09704891ebacdd62292543e19b2dfd08817c47bb6c2a42ca6e83c8a7a2943bd22e5423b60abec9a3b061e53d3fe5b851ac66105bf9f02170149ff373b1e0dfc0c352157086d8480a6e06212a2d18b96c33aa04d43f14ecb79bb45c4b61343da1f036aae18831e83c8c8284ac962934776efe4220c7e1f150285d489e3210a142b775c6f6590f50f48ab43158faa9950db9aad425dea033e73f7cbc10595a14cb34bb45f295b9a850bca88891b3fd9ea64bb69b0d0211b4ec545120b63ec352c3eab65c9ebf6b42059c54edb2500d7cde3d9c4671fc272cbc62b3e2fc7301ccf38300aa955006e2d69aacc5713b33d6855ee24cfbced524d986303c73e79cd339e7fe9c89adbf2f39d81fec1b84af8f76dde6e9fbb4722e8456b7130968525534c3885c93458d5f659fa7a32e16e92e55dc3da298748e870f70b40581bb73027ca58ce08898b62e6dd9b94b8b56daaeb3404b9a8f9d74c1b1aee5961396dfe5a61205e5d0011c1d57186d9ab9f238a803ce585a0cc676189699aa1425db61527c01fe5f59fc7a81b82ce1ddb450ff47343a8c92bb3843c9f1e411d4eab259c9ba6650e1bd0e98fdd4a2958069ebb3555b0a0525732b79624940221ed9ce3f0535f1f616d2388e30f719f2ca118424714fe67ae5444ccf4e7a4df7df0d5966112e16f2138a4ff3f2e6f584b64d179d1f5762f28d5b0d47783d89b54efb468dca2778cc8d9e58e366c1073d4df4175e63f1b39ed33efbdc7b363b96718effa0ce4fa6e2be77dafb610c3f90c73301e410d968cb8cbb482f09bb6e413a6c5caac1265e9a04258330fd5e489c8a34fba955540bfacec1a1167e6141794c05c23b99808a8ada633039decb4cb177548650f8d8b7eb61d17dfc9bc08d08c12258bce89200b60eab7d48888e52ec362adbd0bb8b7f38b28e539a06dcf4f438a897baaef56e6e7fceb7ad19c1379d89bada9ce135479fc6990e37f6a0ef0dc0f9faaa2f4be43fb1905e57a45311901cac3aa591c253bbe1d5f8e3bf88e76791b52e4ef38776c5a671ef186f16ae9fccd0001a0d06c37c89f887e91138161904ba34831f278fe09aa1fed1e49cc5568fb5c44105e9d5f61872b3e8b5905cf1634aaaf8492fa1ba85fb410cbd29a8dd391a59d96e97002137356aa687485b849b4892d438b46f8aa79edeb8545d8cde5e168e6d64809b4d47b07f5d530ca8852c35b2b383f7b8aa49744a5f375dc2d9dcf4d49b5b52cab52edae4011db6f9e4de11b7c55662ccb6cb29622055a1f7328ff5badb626b562f26cb6fc335fadba9253a763745454c7af2a60f09a1437af6e2e4bc753fbb9a4d222321cf67fd403e8f4319bd394024c754bae40539c90a421f3c4ab4867219972f3964209dc62b8b15b87a596858083ebf52f596ef27e0ad69fe634b7da5413d90b91709134baaa9c6c9edfce18a67af671d9e5d9577b8d4860b22d3bd46d6778af9b4cbe1e8fc471a59dfd31d9ee6c38e36e4661f25793f2710bb77f9b2a00a492e6c4ba00ac524ad4b44f54106bd05d870d51def8fa43c05273db24c7677c5617809554db8590417f98b7477a990a7ebd39978f6e979e77f7609f20fe5a77dd1d3c6a0981328ba8b5ca4064d4de85aad55890ee43a0193626a70bdcafbcb9b79dcc943e73e7245ead7a81f40537394745bcc3d7e8243b9c880d71fe20483985eb71aad7677b256ab7d80cdef52f1a8dbb11e25f3b9b5ace950808beb6be21f476d8a4ba34df3986d5adcc50f837be2c731cee2b50096c1960e2cb37e62c71d07450f03037b1118ebd06de36f103d79626209d10e058510c7879bfe814ca8a7f95dd910b8ccbe228495dacd6808c69e1bf8b30130f2538562a4b8342e1cb5b0b7c985bb8bda6b96bd8b7af447460fa42663e4e29588647f1573e9dc3e081e4a72d6169460769ad2653a4aff9046848d605ab236df4c2c8e9304e5726d36934743a44fc56bbaec3c9b9ef5bc8aac2f240d6174298fc82797d81527c90e79e082c75ea58deaa14ad6763290d4cd8920621249167f16cf9f3d9b324765345b3720acfc3a425ac93a54bcc8757457967e2218ea5ba41afc61ee9bb4ca8f315ddfb823b22a783c823eab32a6b49c9d44e5f09cf45d9e0f35417c98dcc64cb437ba8b2de2e27f6d07b6cab37fcabacbf3c0fe491cf56255f679d438854d86483e7d80dd1ebefc20e73d7c7d94107793c1f8999bf00e650492ceaef8976f7b3c5ead0906e402dedb51ee38856e8663127218080dcfc1f7ddd7140cdb79ac1addf6ceb91a50afb4ad3a0137d58d32b667ae25f482e774bd930cda578a4af91e38c1104af325bfe1ab7198d8002fca7d0988d4bd0159429337fc25a1f1df2c76ba2d68685ce685c533a8450b27e0e343b64929ee4e6e248bbef26cd0a352b381ff791f9f8fdbe0825d86532809d1dc900a375d4221a537c8c125d1487eb3d9a8ea3472ebbb2d5554e733f6064a13ef019c89230e896c6f663de946e10f25c269f819b8339d8266d9c0ff8e3834f3c6f8a210a6d8c7a1f4aba0fef5493484f9fd9072fb29d19dc20dbe3f2422cae4e7b0e0fba9fb9ce0a18bb1043ce0e7ad961685ed2812c0047d9daa0adc2736ba006d3ef5480e9829b4be6d2b966eb1fd84029d87ef5250e34a1834403e8119d7a754ad3706d1de31305176744bb32cc7026ab906ad03e7071ce09a7aef12cba9f8ae1bc787313de334ed23b59605efd30e5c8d4ff3ad4657aa885853828199ec43110cd8a381674d1c94922eba8cd035e4d888793264ddd3d1163f46a5e309543f1019a7edd2f2627b89c93612a691c1486ed3bae07a52e6e1f40b49d6af22585f20578f1d87f1edfbebf98b43f8fdc9cf8881c1c3f91e000000000500000000000000000000000000000000000000000000000000000000000000010b4170746f735374646c696200000000000000000000000000000000000000000000000000000000000000010a4d6f76655374646c696200000000000000000000000000000000000000000000000000000000000000010e53757072614672616d65776f726b00000000000000000000000000000000000000000000000000000000000000010b53757072615374646c6962186ba2ba88f4a14ca51f6ce42702c7ebdf6bfcf738d897cc98b986ded6f1219e08537570726156726600",
+        [
+          "0xa11ceb0b060000000c01000c020c1c03284a04720a057c8b01078702c90208d0046006b0053f10ef05240a93063b0cce06ea020db8090e00000101010201030104020500060c00000707000008070000090e00030c07000411040203010001000a000100000b020300000d040300000e050300041a0708020300021b020900041c030a020304041d0c03020300031e0d0e00051f0f00000520111200042113140203000122170301060406060607060b060c16010301080201060c0004060c0a020804080407060c030a020a020502030203080202060b0502090009010900010609010105010b05020900090103030708000503070b05020900090109000901010a0201080407060c050804080402030305070800080308020f0a0f06030a020a02050203010a0f02070b0502090009010900010901010f0108010109000973757072615f6e6674056576656e74067369676e657206737472696e67057461626c650973757072615f767266094c6173744e6f6e6365094e46544d696e7465641250656e64696e674d696e74526571756573740853757072614e4654186765745f70656e64696e675f6d696e745f726571756573740b696e69745f6d6f64756c6506537472696e67046d696e740c726e675f63616c6c6261636b056e6f6e63651570656e64696e675f6d696e745f7265717565737473055461626c65096f626a6563745f69640763726561746f72046e616d6509697066735f686173680672617269747909726563697069656e740b6465736372697074696f6e056f776e657206626f72726f770a616464726573735f6f66036e65770361646404757466380b726e675f726571756573740f7665726966795f63616c6c6261636b0672656d6f766504656d6974ff2233771845c442f0606761a4c12e225a17c7c6fc4d0511b9acef02d7c031060000000000000000000000000000000000000000000000000000000000000001186ba2ba88f4a14ca51f6ce42702c7ebdf6bfcf738d897cc98b986ded6f1219e0520ff2233771845c442f0606761a4c12e225a17c7c6fc4d0511b9acef02d7c031060a020a0973757072615f6e66740a020d0c726e675f63616c6c6261636b126170746f733a3a6d657461646174615f7631100001094e46544d696e746564010400000002020f03100b050203080201020512031305140804150a02160f0202041705150a021408041808040302061203150a02140804180804160f19050001000100030707002b0010000b003800140201000000030e0a001105290020040b0b00060000000000000000380112002d00050d0b00010202010401000b270a0011050c0607002a000c050a05100114060100000000000000160a050f01150a051001140c040b050f000a040b060b010b020b03120238020b000700070111080702110831010b0406010000000000000011090102030104010010450b010b020b030b040b050a06110a0c0b07002a000c070a070f000b0638030c090e0b4115060000000000000000240416051a0b0701060000000000000000270e0b0600000000000000004215144a6400000000000000000000000000000000000000000000000000000000000000194a0100000000000000000000000000000000000000000000000000000000000000160c0a0b071001140e091002140e091003140e091004140a0a0e0910051412030c080e081006140e091005140e091003140e091002140b0a1201380402000100000201020202030200030000"
+        ]
+      ]
+    }
+  },
+  "output": {
+    "Move": {
+      "gas_used": 89,
+      "events": [
+        {
+          "guid": {
+            "creation_number": "0",
+            "account_address": "0x0"
+          },
+          "sequence_number": "0",
+          "type": "0x1::code::PublishPackage",
+          "data": {
+            "code_address": "0xff2233771845c442f0606761a4c12e225a17c7c6fc4d0511b9acef02d7c03106",
+            "is_upgrade": true
+          }
+        },
+        {
+          "guid": {
+            "creation_number": "0",
+            "account_address": "0x0"
+          },
+          "sequence_number": "0",
+          "type": "0x1::transaction_fee::FeeStatement",
+          "data": {
+            "execution_gas_units": "10",
+            "io_gas_units": "79",
+            "storage_fee_quants": "0",
+            "storage_fee_refund_quants": "0",
+            "total_charge_gas_units": "89"
+          }
+        }
+      ],
+      "vm_status": "Executed successfully"
+    }
+  },
+  "status": "Success"
+}
+
+
+Local: (2025-06-23 17:05:50.048293393 +00:00)	 Utc: (2025-06-23 17:05:50.048374893 UTC)
+
+CMD:
+Publish
+Output:
+Command Aborted Reason(Some(Move(MoveTransactionOutput { gas_used: 85, events: [Event { guid: EventGuid { creation_number: U64(0), account_address: Address(0000000000000000000000000000000000000000000000000000000000000000) }, sequence_number: U64(0), typ: Struct(MoveStructTag { address: Address(0000000000000000000000000000000000000000000000000000000000000001), module: IdentifierWrapper(Identifier("transaction_fee")), name: IdentifierWrapper(Identifier("FeeStatement")), generic_type_params: [] }), data: Object {"execution_gas_units": String("7"), "io_gas_units": String("78"), "storage_fee_quants": String("0"), "storage_fee_refund_quants": String("0"), "total_charge_gas_units": String("85")} }], vm_status: "BACKWARD_INCOMPATIBLE_MODULE_UPDATE" }))), Action(Please try again.)
+Local: (2025-06-23 17:11:20.381852738 +00:00)	 Utc: (2025-06-23 17:11:20.381888518 UTC)
+
+CMD:
+New(NewProfileArgs { name: Some("pseudo_random"), private_key: None, profile_option: ProfileAttributeOptionsMaker { network: None, profile_option: None }, interactive: false })
+Output:
+-------------------------- Profile List ---------------------------------
+	(*) my_nft_account
+CliProfile { account_address: "0xff2233771845c442f0606761a4c12e225a17c7c6fc4d0511b9acef02d7c03106", ed25519_public_key: f681d33db29d8ecef6bc85e90d2d7d32e3f21db4b73011c337aacf594b8f1350, rpc_url: "https://rpc-testnet.supra.com/", faucet_url: "https://rpc-testnet.supra.com/", chain_id: 6 }
+	 pseudo_random
+CliProfile { account_address: "0x7b97a0540add18de610f369e9c2c52ab192408ff07af9af80318019b9f6bb073", ed25519_public_key: 882aa5bfb482704cb1c3b75fb9aa9065689a26f6b8551a7e0680870e6bf28f8d, rpc_url: "http://localhost:27000/", faucet_url: "http://localhost:27001/", chain_id: 255 }
+-------------------------------------------------------------------------
+
+
+Local: (2025-06-23 17:11:53.800106642 +00:00)	 Utc: (2025-06-23 17:11:53.800148662 UTC)
+
+CMD:
+New(NewProfileArgs { name: Some("pseudo_random"), private_key: None, profile_option: ProfileAttributeOptionsMaker { network: Some(Testnet), profile_option: None }, interactive: false })
+Output:
+CliProfile: AlreadyExists("pseudo_random")
+Local: (2025-06-23 17:12:03.043092943 +00:00)	 Utc: (2025-06-23 17:12:03.043138263 UTC)
+
+CMD:
+New(NewProfileArgs { name: Some("pseudo_random"), private_key: None, profile_option: ProfileAttributeOptionsMaker { network: Some(Testnet), profile_option: None }, interactive: false })
+Output:
+CliProfile: AlreadyExists("pseudo_random")
+Local: (2025-06-23 17:12:22.731203807 +00:00)	 Utc: (2025-06-23 17:12:22.731254076 UTC)
+
+CMD:
+New(NewProfileArgs { name: Some("notrandom"), private_key: None, profile_option: ProfileAttributeOptionsMaker { network: Some(Testnet), profile_option: None }, interactive: false })
+Output:
+-------------------------- Profile List ---------------------------------
+	(*) my_nft_account
+CliProfile { account_address: "0xff2233771845c442f0606761a4c12e225a17c7c6fc4d0511b9acef02d7c03106", ed25519_public_key: f681d33db29d8ecef6bc85e90d2d7d32e3f21db4b73011c337aacf594b8f1350, rpc_url: "https://rpc-testnet.supra.com/", faucet_url: "https://rpc-testnet.supra.com/", chain_id: 6 }
+	 pseudo_random
+CliProfile { account_address: "0x7b97a0540add18de610f369e9c2c52ab192408ff07af9af80318019b9f6bb073", ed25519_public_key: 882aa5bfb482704cb1c3b75fb9aa9065689a26f6b8551a7e0680870e6bf28f8d, rpc_url: "http://localhost:27000/", faucet_url: "http://localhost:27001/", chain_id: 255 }
+	 notrandom
+CliProfile { account_address: "0xd8473d5c8aa356edf408d6e50d072bc297d3a5a66a7a8ce655c7b72b0b5d6478", ed25519_public_key: c6c320811ea8cfdcc3bcef1183d2bf5e165464b4d9b8ef4c90e73ace7f790a58, rpc_url: "https://rpc-testnet.supra.com/", faucet_url: "https://rpc-testnet.supra.com/", chain_id: 6 }
+-------------------------------------------------------------------------
+
+
+Local: (2025-06-23 17:13:18.535998907 +00:00)	 Utc: (2025-06-23 17:13:18.536030807 UTC)
+
+CMD:
+AccountTool::FundWithFaucet
+Output:
+CliProfile: KeyNotFound("no_random")
+Local: (2025-06-23 17:13:25.097950068 +00:00)	 Utc: (2025-06-23 17:13:25.097991248 UTC)
+
+CMD:
+AccountTool::FundWithFaucet
+Output:
+{
+  "Accepted": "0xc7101d310ecdfbd336fadb0f38110b32b05912b15e1d9a8912ab5b535c1479f8"
+}
+
+
+Local: (2025-06-23 17:15:09.805357938 +00:00)	 Utc: (2025-06-23 17:15:09.805407428 UTC)
+
+CMD:
+Publish
+Output:
+Command Aborted Reason(Some(Move(MoveTransactionOutput { gas_used: 84, events: [Event { guid: EventGuid { creation_number: U64(0), account_address: Address(0000000000000000000000000000000000000000000000000000000000000000) }, sequence_number: U64(0), typ: Struct(MoveStructTag { address: Address(0000000000000000000000000000000000000000000000000000000000000001), module: IdentifierWrapper(Identifier("transaction_fee")), name: IdentifierWrapper(Identifier("FeeStatement")), generic_type_params: [] }), data: Object {"execution_gas_units": String("7"), "io_gas_units": String("78"), "storage_fee_quants": String("0"), "storage_fee_refund_quants": String("0"), "total_charge_gas_units": String("84")} }], vm_status: "MODULE_ADDRESS_DOES_NOT_MATCH_SENDER" }))), Action(Please try again.)
+Local: (2025-06-23 17:15:41.435341345 +00:00)	 Utc: (2025-06-23 17:15:41.435381676 UTC)
+
+CMD:
+Publish
+Output:
+{
+  "authenticator": {
+    "Move": {
+      "Ed25519": {
+        "public_key": "0xc6c320811ea8cfdcc3bcef1183d2bf5e165464b4d9b8ef4c90e73ace7f790a58",
+        "signature": "0x700e6d8b62759fd125956a595244a46b5949ed3850b843faf5c87bb08b89fb42f7306d53b3be05ccf33c5092180730f8268b054eec3d7846bb1a8bccba249600"
+      }
+    }
+  },
+  "block_header": {
+    "hash": "0xc2a380d567069cf956d58808f56e97acc7e23fa39e961d714b06bb53dfa90947",
+    "height": 19373178,
+    "timestamp": {
+      "microseconds_since_unix_epoch": 1750698939634548,
+      "utc_date_time": "2025-06-23T17:15:39.634548+00:00"
+    }
+  },
+  "hash": "0x4110f1f9a20f66cb628b9dca3d0ca2a1f6d73cc1b360a0b6c09896e74869ad69",
+  "header": {
+    "chain_id": 6,
+    "expiration_timestamp": {
+      "microseconds_since_unix_epoch": 1750698969000000,
+      "utc_date_time": "2025-06-23T17:16:09+00:00"
+    },
+    "sender": {
+      "Move": "0xd8473d5c8aa356edf408d6e50d072bc297d3a5a66a7a8ce655c7b72b0b5d6478"
+    },
+    "sequence_number": 0,
+    "gas_unit_price": 100,
+    "max_gas_amount": 2503
+  },
+  "payload": {
+    "Move": {
+      "type": "entry_function_payload",
+      "function": "0x1::code::publish_package_txn",
+      "type_arguments": [],
+      "arguments": [
+        "0x076d757365626f74010000000000000000403744454536423532414644393432324533344344423044374445383236383335454234334244324639373434343441353039423235433634303342374645304597031f8b08000000000002ffbd924d6fdb300c86effa158477d8c91f6de28f15db21285aa0c04eebb04b100cb248c74263c91065aff9f793dc262dd05e7ae991af48f179496e47a91ee49e76c2c881e00724c3c4d45a9f88991c6b6ba276911559910839f9de3a0eca7627c456223a6226de89e7a2988bcdba5e61a91a29576545d8ad8b062b2a0b2ceacb565d7eab71254b5955b2968da2aa2c55dd8697a22db15ad74d68337acb7f3b1780fe59f7103f2d1e2f4e3a7b3c2bf7d3e8e41fd79d04f802dfd33485eb5f77bfefae373fafe0e6713c68a5fde108831cc1f704e7a267ebe02d8462111c21cde92b575118c92019a589b3a5f0f684b5137bbd18eebd1ff92acf43d84f6da6ec90df18efec784c6fed6450fa30c57c814f95759485c444389a9769d19c089e5ad42e864f59839d293ffbcf39f64dcf71f22e5730f441a2d975a9369e5c2715bd8658fae59ed81b7a211d2487dc37cd3791f8dee341b79f3791279197ae71e91be669d0660f473b7d9d09c2e9ea4e13867d6b0e7bf63d58078ee2370801527760c2b9769126fb0fd980c8a704030000010973757072615f6e6674cb0a1f8b08000000000002ffb5566d6fe3360cfe7ebf82c3b035c192b4376c879ddb1ed6f5ae45803657b4e98661187c8a2d275a6dc927c9c9ba22ff7da4e4d7bcb4070cf3374b24453e241f3253719172c80ac367ca06812972cd429958787a05f81d1ec2596e9539bca30bb8d02ce32ba51f20738ac609a13230920a93ea3e08f8924b7bbcffde88b9e47a53c0d838082c9ba53c089eee789a0c604a7feb9d82c66a21e7b5e49dfbdd2dbae49155fa197facc8b8b12ccb8f29e893e17008930fbf0570a134b028e2c6a06d880aad312e98a52a7a805a071294ca0d2f6235d44cc62a93a8f0aa82f096676ac963f020fe7a7b51c20731cfb98cb98c1e9d05212dd792a5703bb9ac74c9599f1516c7bacad05227c750d9a70772cd0d3a6680c144c9e14521e7027183a97ae0129404bbe0e5fb136e29e491d346088bc8fa9bc9c51416ccc0037f1ce085d27c00b15679590bf4a9d95f086428e2008a373f0cea7391272644dd45001ee993e2a777cdb5449883323fcd69cc4da4456e8592db979a69611ff199ef7f7cd39caa15164d00040502eccfd71e87afff7025f7670dca07fa059e096b11fbd502716020f90a284e612023b8e30e0c7873ed4e1d0e14fb00229557707c011091e60c45375cdc8fc10bc06da3b06eb27e06f8822a74c4c1aad2434a73ca8cc5abcf0516278622954409aa2f8a185f1fd516a60bc4a136b212690a33ee2dc5c0acb3e64bf5c05411412f2f66a9300bae9bc37e07c62b7460e25eed96530b3fe7d40676ad4ea1b6404f43f2382c43c1c73027d43d114bd319c30644efa58254c939d7985a1ef37813a4cae28db748e9bdf5f62a6fbfc46a0559a5b3c31a855a368d2f19df3a301a8dc89fdaa1b11456b054fcc34d0b5f983dfada21964106018b3c6212aea95c9c5c036a3beb7453e76323b14921236a2e0a88824314ceeea71fafcfa6e3f3b3ababdf8916cad76fee7fb9c2c3e9f8e36404630bd7f777532a855c8b25b3dc1b467b4851c2865ea96788bbb0d4bff55cde6fa537e508afbb0eabb239052f1604e549a892d244ffb8e987047a5ff1bf05a6fba48ef85daf6babdf7e8a3e4a71685529366861f55455da11acfb8eda276a4f75b9b1539b5d6f16d20da11c01728a7e6ca0c514909516b3ac845d746741d9c51ec47cc38c53efd5cf6e60fa7f316c1f67dae74220986dacfe7bfa4891e82774a887c892a838535aab55384fd58ca56156d876667f2e770f34d22682b1c46ec888c01bfaa25a2794cb8c418ffa04bb8e501fbfef374e741c187903a7bb8fbf83d75defcb091f3ea7d575f592232cd8243b938ef3db3570b529ec7cabbec58a8cb4323c523226c8eb8b20908860fbb6e7abf9b231d35a47101464d6ce5bed4982967b2fbc4d1650b20fdfc0eba323f7d41d7288e39ca3e1dbb7954007897322303f832827154f75fca0ddf2b4d937ba7ddc9aaa9d3c0cdcfb22cbd101515506e13a7e5f5746d57b82761d1aef8ea43ae6eb1e1a748ea977ba27adbee95e7814bb67e54ed2ed17e7b1db2534d12f39e8e41a7ee916d1b48c80a8daa1e82a9b355c4fb52e90a51c3772aa4d14a59664c4eb383de8896ad9719bd0a8d34fa8ea1c300b91932a8129226153d414a852ce12a7e90710fe1d38950348044f7106d6069d14eef8f85cafd999f6e612733eaa7fbbe0d5fbd20ef8cefd5d859f97d8ca9c37bf9dc3166192c09edc6f26745d92d97a6b79d73830ea15a1e6ff6a79e8ec0cc86871a5bec5f76d3b3d5c0e765371b5366c4c9fa540fe6b0f9f39b654cc2d1329e637d9b328347bc1f982a18731241a19ea132a87bb66e1270acb2e70018cc84e6ebbe1699ef225ab0aac0c9042237b0d5ff6fa6ebf7b79d23c3f30f60c8be7c8becce0fad5bf6823ff9adf0e000000000500000000000000000000000000000000000000000000000000000000000000010b4170746f735374646c696200000000000000000000000000000000000000000000000000000000000000010a4d6f76655374646c696200000000000000000000000000000000000000000000000000000000000000010e53757072614672616d65776f726b00000000000000000000000000000000000000000000000000000000000000010b53757072615374646c6962186ba2ba88f4a14ca51f6ce42702c7ebdf6bfcf738d897cc98b986ded6f1219e08537570726156726600",
+        [
+          "0xa11ceb0b060000000c01000a020a10031a1f043902053b20075bcd0108a8024006e80222108a03240aae03260cd403b0010d8405080000010101020103010400050c000006070000070e00030a070000080001000009020000000b03000002140204000415000100011607000106050600010301060c04060c0a02080308030105050307080008020f050108010109000973757072615f6e6674056576656e74067369676e657206737472696e670974696d657374616d70094c6173744e6f6e6365094e46544d696e7465640853757072614e46540e6765745f6c6173745f6e6f6e63650b696e69745f6d6f64756c6506537472696e67046d696e74056e6f6e6365096f626a6563745f69640763726561746f72046e616d6509697066735f68617368067261726974790b6465736372697074696f6e056f776e65720a616464726573735f6f66106e6f775f6d6963726f7365636f6e647304656d6974d8473d5c8aa356edf408d6e50d072bc297d3a5a66a7a8ce655c7b72b0b5d647800000000000000000000000000000000000000000000000000000000000000010520d8473d5c8aa356edf408d6e50d072bc297d3a5a66a7a8ce655c7b72b0b5d6478126170746f733a3a6d657461646174615f7631100001094e46544d696e746564010400000002010c030102050d030e050f0803100a02110f0202060d03100a020f0803120803110f13050001000100000507002b001000140201000000000d0a001103290020040a0b0006000000000000000012002d00050c0b0001020201040100052d0b0011030c0807002a000c050a05100014060100000000000000160a050f00150b051000140c0411044d4a6400000000000000000000000000000000000000000000000000000000000000190c070b040b010b020b030a070a0812020c060e061001140b080e061002140e061003140b071201380002000002000202020100"
+        ]
+      ]
+    }
+  },
+  "output": {
+    "Move": {
+      "gas_used": 2503,
+      "events": [
+        {
+          "guid": {
+            "creation_number": "0",
+            "account_address": "0x0"
+          },
+          "sequence_number": "0",
+          "type": "0x1::code::PublishPackage",
+          "data": {
+            "code_address": "0xd8473d5c8aa356edf408d6e50d072bc297d3a5a66a7a8ce655c7b72b0b5d6478",
+            "is_upgrade": false
+          }
+        },
+        {
+          "guid": {
+            "creation_number": "0",
+            "account_address": "0x0"
+          },
+          "sequence_number": "0",
+          "type": "0x1::transaction_fee::FeeStatement",
+          "data": {
+            "execution_gas_units": "7",
+            "io_gas_units": "79",
+            "storage_fee_quants": "241800",
+            "storage_fee_refund_quants": "0",
+            "total_charge_gas_units": "2503"
+          }
+        }
+      ],
+      "vm_status": "Executed successfully"
+    }
+  },
+  "status": "Success"
+}
+
+
+Local: (2025-06-23 17:17:06.358144516 +00:00)	 Utc: (2025-06-23 17:17:06.358181406 UTC)
+
+CMD:
+Run
+Output:
+CliProfile: KeyNotFound("pseudo_random")
+Local: (2025-06-23 17:17:31.304894014 +00:00)	 Utc: (2025-06-23 17:17:31.304941764 UTC)
+
+CMD:
+Run
+Output:
+{
+  "authenticator": {
+    "Move": {
+      "Ed25519": {
+        "public_key": "0xc6c320811ea8cfdcc3bcef1183d2bf5e165464b4d9b8ef4c90e73ace7f790a58",
+        "signature": "0xb26e38bef33d34ad61ef31273ebad627acac0f5509b9bd9a86a640fde372e919274261c5c8871d06b09197ff65a0c111332fcac2538720176cacc7627a899b03"
+      }
+    }
+  },
+  "block_header": {
+    "hash": "0x7fa9069bf1c0e5d20983fe05615d11af81a80950d068948bbd5b929ee7e67636",
+    "height": 19373345,
+    "timestamp": {
+      "microseconds_since_unix_epoch": 1750699049502570,
+      "utc_date_time": "2025-06-23T17:17:29.502570+00:00"
+    }
+  },
+  "hash": "0x32f6526ef0971b3a9ae89f43653159bfe0f2e9493c52bbc413a9782aa29763df",
+  "header": {
+    "chain_id": 6,
+    "expiration_timestamp": {
+      "microseconds_since_unix_epoch": 1750699079000000,
+      "utc_date_time": "2025-06-23T17:17:59+00:00"
+    },
+    "sender": {
+      "Move": "0xd8473d5c8aa356edf408d6e50d072bc297d3a5a66a7a8ce655c7b72b0b5d6478"
+    },
+    "sequence_number": 1,
+    "gas_unit_price": 100,
+    "max_gas_amount": 5
+  },
+  "payload": {
+    "Move": {
+      "type": "entry_function_payload",
+      "function": "0xd8473d5c8aa356edf408d6e50d072bc297d3a5a66a7a8ce655c7b72b0b5d6478::supra_nft::mint",
+      "type_arguments": [],
+      "arguments": [
+        "0xa068a06e938380695034c442345e27a69485121c29e61266e746a5b678c187b4",
+        "\"My Awesome NFT\"",
+        "\"A unique collectible with timestamp-based rarity!\""
+      ]
+    }
+  },
+  "output": {
+    "Move": {
+      "gas_used": 5,
+      "events": [
+        {
+          "guid": {
+            "creation_number": "0",
+            "account_address": "0x0"
+          },
+          "sequence_number": "0",
+          "type": "0xd8473d5c8aa356edf408d6e50d072bc297d3a5a66a7a8ce655c7b72b0b5d6478::supra_nft::NFTMinted",
+          "data": {
+            "creator": "0xd8473d5c8aa356edf408d6e50d072bc297d3a5a66a7a8ce655c7b72b0b5d6478",
+            "ipfs_hash": "0xa068a06e938380695034c442345e27a69485121c29e61266e746a5b678c187b4",
+            "name": "\"My Awesome NFT\"",
+            "object_id": "1",
+            "rarity": "70"
+          }
+        },
+        {
+          "guid": {
+            "creation_number": "0",
+            "account_address": "0x0"
+          },
+          "sequence_number": "0",
+          "type": "0x1::transaction_fee::FeeStatement",
+          "data": {
+            "execution_gas_units": "3",
+            "io_gas_units": "2",
+            "storage_fee_quants": "0",
+            "storage_fee_refund_quants": "0",
+            "total_charge_gas_units": "5"
+          }
+        }
+      ],
+      "vm_status": "Executed successfully"
+    }
+  },
+  "status": "Success"
+}
+
+
+Local: (2025-06-23 19:46:53.469352909 +00:00)	 Utc: (2025-06-23 19:46:53.469388089 UTC)
+
+CMD:
+AccountTool::FundWithFaucet
+Output:
+CliProfile: KeyNotFound("no_random")
+Local: (2025-06-23 19:46:57.670376918 +00:00)	 Utc: (2025-06-23 19:46:57.670434958 UTC)
+
+CMD:
+AccountTool::FundWithFaucet
+Output:
+{
+  "Accepted": "0xb3226ba21ff98eafa5ec63faac20a14d6a0ee727b9df8212f5759c27aaf21704"
+}
+
+
+Local: (2025-06-23 19:47:23.740896954 +00:00)	 Utc: (2025-06-23 19:47:23.740954083 UTC)
+
+CMD:
+AccountTool::FundWithFaucet
+Output:
+{
+  "Accepted": "0xe996cefc5aafbf994ced64492af27e1e2b2f163902a33d225d8f287f31044292"
+}
+
+
+Local: (2025-06-23 19:52:37.029709072 +00:00)	 Utc: (2025-06-23 19:52:37.029763492 UTC)
+
+CMD:
+Run
+Output:
+{
+  "authenticator": {
+    "Move": {
+      "Ed25519": {
+        "public_key": "0xf681d33db29d8ecef6bc85e90d2d7d32e3f21db4b73011c337aacf594b8f1350",
+        "signature": "0x1825295e060de9a40f83f6e6cb451eca49b7b2a235327296cb11dbce30fccc0ee80bb1ef0a61e99035b2af091e7d72c2a3c0599789e1beeef98949e2a786000b"
+      }
+    }
+  },
+  "block_header": {
+    "hash": "0xf5371c74621f98d5d3588403c60e88d1353e0e6cba24b946b30fa4bd5136fe0b",
+    "height": 19386358,
+    "timestamp": {
+      "microseconds_since_unix_epoch": 1750708355410390,
+      "utc_date_time": "2025-06-23T19:52:35.410390+00:00"
+    }
+  },
+  "hash": "0x3129edc66ca9208cab6d4bb495eae1aefd69357c7afaddba63b6e8eb2239cce8",
+  "header": {
+    "chain_id": 6,
+    "expiration_timestamp": {
+      "microseconds_since_unix_epoch": 1750708384000000,
+      "utc_date_time": "2025-06-23T19:53:04+00:00"
+    },
+    "sender": {
+      "Move": "0xff2233771845c442f0606761a4c12e225a17c7c6fc4d0511b9acef02d7c03106"
+    },
+    "sequence_number": 6,
+    "gas_unit_price": 100,
+    "max_gas_amount": 5
+  },
+  "payload": {
+    "Move": {
+      "type": "entry_function_payload",
+      "function": "0xd425e7bfd38c6f530798f44b78cfee199fa00736a3aba8be1a42e90f5b48d567::supra_nft::mint",
+      "type_arguments": [],
+      "arguments": [
+        "0xa068a06e938380695034c442345e27a69485121c29e61266e746a5b678c187b4",
+        "\"Dog NFT\"",
+        "\"A furry friend with pseudo-random rarity!\""
+      ]
+    }
+  },
+  "output": {
+    "Move": {
+      "gas_used": 5,
+      "events": [
+        {
+          "guid": {
+            "creation_number": "0",
+            "account_address": "0x0"
+          },
+          "sequence_number": "0",
+          "type": "0xd425e7bfd38c6f530798f44b78cfee199fa00736a3aba8be1a42e90f5b48d567::supra_nft::NFTMinted",
+          "data": {
+            "creator": "0xff2233771845c442f0606761a4c12e225a17c7c6fc4d0511b9acef02d7c03106",
+            "ipfs_hash": "0xa068a06e938380695034c442345e27a69485121c29e61266e746a5b678c187b4",
+            "name": "\"Dog NFT\"",
+            "object_id": "3",
+            "rarity": "90"
+          }
+        },
+        {
+          "guid": {
+            "creation_number": "0",
+            "account_address": "0x0"
+          },
+          "sequence_number": "0",
+          "type": "0x1::transaction_fee::FeeStatement",
+          "data": {
+            "execution_gas_units": "3",
+            "io_gas_units": "2",
+            "storage_fee_quants": "0",
+            "storage_fee_refund_quants": "0",
+            "total_charge_gas_units": "5"
+          }
+        }
+      ],
+      "vm_status": "Executed successfully"
+    }
+  },
+  "status": "Success"
+}
+
+
+Local: (2025-06-23 19:53:06.271788132 +00:00)	 Utc: (2025-06-23 19:53:06.271868562 UTC)
+
+CMD:
+AccountTool::FundWithFaucet
+Output:
+General: Message: "{\"message\":\"Account 0x7e234a89ef81822fb9dca7ff7440ada2049ce0cc2e9520779194d06b44d8dd92 recently received some tokens. Please try again in 3257s.\"}", Cause: Err("HTTP status client error (429 Too Many Requests) for url (https://rpc-testnet.supra.com/rpc/v3/wallet/faucet/7e234a89ef81822fb9dca7ff7440ada2049ce0cc2e9520779194d06b44d8dd92)")
+Local: (2025-06-23 20:05:19.732993453 +00:00)	 Utc: (2025-06-23 20:05:19.733069083 UTC)
+
+CMD:
+AccountTool::FundWithFaucet
+Output:
+{
+  "Accepted": "0x1fb47ae620ed93c1558e090ad85ab6d4ad7eb1518dc54052f5f6080783ded89d"
+}
+
+
+Local: (2025-06-23 20:31:23.957834466 +00:00)	 Utc: (2025-06-23 20:31:23.957871466 UTC)
+
+CMD:
+New(NewProfileArgs { name: Some("no_random"), private_key: None, profile_option: ProfileAttributeOptionsMaker { network: Some(Testnet), profile_option: None }, interactive: false })
+Output:
+-------------------------- Profile List ---------------------------------
+	 notrandom
+CliProfile { account_address: "0xd8473d5c8aa356edf408d6e50d072bc297d3a5a66a7a8ce655c7b72b0b5d6478", ed25519_public_key: c6c320811ea8cfdcc3bcef1183d2bf5e165464b4d9b8ef4c90e73ace7f790a58, rpc_url: "https://rpc-testnet.supra.com/", faucet_url: "https://rpc-testnet.supra.com/", chain_id: 6 }
+	(*) my_nft_account
+CliProfile { account_address: "0xff2233771845c442f0606761a4c12e225a17c7c6fc4d0511b9acef02d7c03106", ed25519_public_key: f681d33db29d8ecef6bc85e90d2d7d32e3f21db4b73011c337aacf594b8f1350, rpc_url: "https://rpc-testnet.supra.com/", faucet_url: "https://rpc-testnet.supra.com/", chain_id: 6 }
+	 pseudo_random
+CliProfile { account_address: "0x7b97a0540add18de610f369e9c2c52ab192408ff07af9af80318019b9f6bb073", ed25519_public_key: 882aa5bfb482704cb1c3b75fb9aa9065689a26f6b8551a7e0680870e6bf28f8d, rpc_url: "http://localhost:27000/", faucet_url: "http://localhost:27001/", chain_id: 255 }
+	 no_random
+CliProfile { account_address: "0x7efe7f4be32f3b934060f1090555f525f29a50f2f10aa3fdd6047367210325e5", ed25519_public_key: 409b2f781cad46d48e1798e2e92f790901184ca632d0f180b3bdd70f88233b1c, rpc_url: "https://rpc-testnet.supra.com/", faucet_url: "https://rpc-testnet.supra.com/", chain_id: 6 }
+-------------------------------------------------------------------------
+
+
+Local: (2025-06-23 20:31:36.554931554 +00:00)	 Utc: (2025-06-23 20:31:36.554986934 UTC)
+
+CMD:
+New(NewProfileArgs { name: Some("cid"), private_key: None, profile_option: ProfileAttributeOptionsMaker { network: Some(Testnet), profile_option: None }, interactive: false })
+Output:
+-------------------------- Profile List ---------------------------------
+	 pseudo_random
+CliProfile { account_address: "0x7b97a0540add18de610f369e9c2c52ab192408ff07af9af80318019b9f6bb073", ed25519_public_key: 882aa5bfb482704cb1c3b75fb9aa9065689a26f6b8551a7e0680870e6bf28f8d, rpc_url: "http://localhost:27000/", faucet_url: "http://localhost:27001/", chain_id: 255 }
+	(*) my_nft_account
+CliProfile { account_address: "0xff2233771845c442f0606761a4c12e225a17c7c6fc4d0511b9acef02d7c03106", ed25519_public_key: f681d33db29d8ecef6bc85e90d2d7d32e3f21db4b73011c337aacf594b8f1350, rpc_url: "https://rpc-testnet.supra.com/", faucet_url: "https://rpc-testnet.supra.com/", chain_id: 6 }
+	 cid
+CliProfile { account_address: "0x3d527b0ca9be59c7c50d18d65fb9c847b901af56dbbf6402f5657dc3f5cee439", ed25519_public_key: 92ce4cd3074f8b900b556206c140230237dd1a864d30518deda9a49aa5b9559c, rpc_url: "https://rpc-testnet.supra.com/", faucet_url: "https://rpc-testnet.supra.com/", chain_id: 6 }
+	 no_random
+CliProfile { account_address: "0x7efe7f4be32f3b934060f1090555f525f29a50f2f10aa3fdd6047367210325e5", ed25519_public_key: 409b2f781cad46d48e1798e2e92f790901184ca632d0f180b3bdd70f88233b1c, rpc_url: "https://rpc-testnet.supra.com/", faucet_url: "https://rpc-testnet.supra.com/", chain_id: 6 }
+	 notrandom
+CliProfile { account_address: "0xd8473d5c8aa356edf408d6e50d072bc297d3a5a66a7a8ce655c7b72b0b5d6478", ed25519_public_key: c6c320811ea8cfdcc3bcef1183d2bf5e165464b4d9b8ef4c90e73ace7f790a58, rpc_url: "https://rpc-testnet.supra.com/", faucet_url: "https://rpc-testnet.supra.com/", chain_id: 6 }
+-------------------------------------------------------------------------
+
+
+Local: (2025-06-23 20:31:54.891232877 +00:00)	 Utc: (2025-06-23 20:31:54.891281457 UTC)
+
+CMD:
+AccountTool::FundWithFaucet
+Output:
+{
+  "Accepted": "0x2da714d47699debb28155e170c43734f768f3e64ef0843b34db256cbafe7c4ea"
+}
+
+
+Local: (2025-06-23 20:31:59.322257613 +00:00)	 Utc: (2025-06-23 20:31:59.322297653 UTC)
+
+CMD:
+AccountTool::FundWithFaucet
+Output:
+{
+  "Accepted": "0x779389cfa56d774f439b7ee2b7b8a4f2aaac2ae810174edb2b3cbc931794bb76"
+}
+
+
+Local: (2025-06-23 20:32:29.246523165 +00:00)	 Utc: (2025-06-23 20:32:29.246576654 UTC)
+
+CMD:
+Publish
+Output:
+Command Aborted Reason(Some(Move(MoveTransactionOutput { gas_used: 84, events: [Event { guid: EventGuid { creation_number: U64(0), account_address: Address(0000000000000000000000000000000000000000000000000000000000000000) }, sequence_number: U64(0), typ: Struct(MoveStructTag { address: Address(0000000000000000000000000000000000000000000000000000000000000001), module: IdentifierWrapper(Identifier("transaction_fee")), name: IdentifierWrapper(Identifier("FeeStatement")), generic_type_params: [] }), data: Object {"execution_gas_units": String("7"), "io_gas_units": String("78"), "storage_fee_quants": String("0"), "storage_fee_refund_quants": String("0"), "total_charge_gas_units": String("84")} }], vm_status: "MODULE_ADDRESS_DOES_NOT_MATCH_SENDER" }))), Action(Please try again.)
+Local: (2025-06-23 20:33:13.742933923 +00:00)	 Utc: (2025-06-23 20:33:13.742984493 UTC)
+
+CMD:
+Publish
+Output:
+{
+  "authenticator": {
+    "Move": {
+      "Ed25519": {
+        "public_key": "0x92ce4cd3074f8b900b556206c140230237dd1a864d30518deda9a49aa5b9559c",
+        "signature": "0xdf24557c02fe599c5a56390988a1c2b5de15067e2faeb220f8c68b66157972979ecab832782c00e777c7968be0f432bfcd730d15456cdbf19616817c5b0ef307"
+      }
+    }
+  },
+  "block_header": {
+    "hash": "0x7f8df655906599980aab60281680347f127315f9c7ae864dd2952d7c409140ef",
+    "height": 19389815,
+    "timestamp": {
+      "microseconds_since_unix_epoch": 1750710788248070,
+      "utc_date_time": "2025-06-23T20:33:08.248070+00:00"
+    }
+  },
+  "hash": "0xfca134868bfcc9e30e4dfe54a9674ca88d7e1c868ad41e9d9eaad34b330e8e0a",
+  "header": {
+    "chain_id": 6,
+    "expiration_timestamp": {
+      "microseconds_since_unix_epoch": 1750710813000000,
+      "utc_date_time": "2025-06-23T20:33:33+00:00"
+    },
+    "sender": {
+      "Move": "0x3d527b0ca9be59c7c50d18d65fb9c847b901af56dbbf6402f5657dc3f5cee439"
+    },
+    "sequence_number": 0,
+    "gas_unit_price": 100,
+    "max_gas_amount": 2509
+  },
+  "payload": {
+    "Move": {
+      "type": "entry_function_payload",
+      "function": "0x1::code::publish_package_txn",
+      "type_arguments": [],
+      "arguments": [
+        "0x076d757365626f74010000000000000000404537414545323538423743444343363146443434453139393635363639444135353743454333333644373437324538463431423846394346463145433630303096031f8b08000000000002ffbd924d4fe3301086effe1556f6b0a77c94362d41bb870a8184b4a70571a92ae48f7163d1d891c709f4df330eb420c1850b37cfab19bfcfebf1a617ea51ec60cb9ce880ffe5593720481f33364240eb5dd2664555541913436c7d4052365bc63642eb0088805bf636947ae7ba3e5bc94a894642dda895aa2b3d3bd7cbdac8469d2f56b2a966c2d44b2da5592eaa333ad62bade6a656008b7943367df4f86002013df9f0982ead9e67471da33e29b7431fc47d304781ffe27ff23ce797ff6fee6e2ed7ff2ef8d573bfb7cac6fd8177a2e7b1057e1a7a8bcea3e734cc28918631ff902a093d380d4e59c0621abc3e626dd9ce4e81db187bbc284b2adb4116ca77e5958bc1f787fcda0f4e8b48af584ef0b9f2010a6acc5880310d9363c67090da8654be76757e84f294bfc4e49b9feaec4b2e0af44da23198dcba08c108051f2126bf32024607efa49d40eafd64be4ec4b751efadfcb917791571724d4b5f230e9d753b7ef0c3ef11387d5d6b2c68dab745da736cb90f3c40ba467382b4863bfaae26d1142f0d60d8fe04030000010973757072615f6e6674d90a1f8b08000000000002ffc5576d6fdb3610fede5f71c3b0d5c61c371db66255926259da04061237489c0dc330a8b444c55c245225297b59e0ffbe3b526f74ecb4403fd4df44de1def9ee7de5ca8b4ca391495e17365a3c854a566b1cc2c3c3c03fcbd7801c7a555e6c5355dc0a966055f297d078553344e08958191549c35f751c4975cda83ddf746dc4aae37058c4da3c8b279cea3e8e19ae7d90866f4b5de2a68ac16f2b695bc769fdb45973cb14a3fe18f1505379615e501057db8b7b707d3777f4470aa34b024e1c6a06d482aad312e98e72ab983560732942a0daf52b5a7994c552151e15903e1152fd492a7e041fcfdeab4860f525e72997299dc3b0b425aae25cbe16a7ad6e892b39e1596a6ba6168a9b30368ecd303a5e6061d33c060aae4de69256f05e2063375c725280976c1ebf7a7dc52c863a78d105689f537d3d3192c98813b7e3fc20ba5f90852adca3a17e8a7e6ff2090b14823a85efd346acf45999918751751cdc2887c3f5930798b71675a15e01938ac7e790356d552adbe441e5ad5f634e526d1a2b442c9c7979a6961efd18f1f7f7ed59daa15665504841532e0cfd71ea86fff7239f9778bda3bfa045e086bd1c9d502816220f90a080861a0203ed20027bcb970a70e28026704892a1bbc3e03a9447386a21b2eeec6e04b917d0cd3bacb9b63401754a5134e9a3e044a949c198b571f2b4c6f7c452a891294a104095a1fb716660b04aa35b212790e73ee2da5c0acb3e693fdb96942864159cd7361165c7787c300e7737460ea5e0d13b207b0736a03dc5ead5161a1a731791cd7a1e063481ad55fc2f27cceb084d17ba9205788a646ee79cad34d901a8b97de22f17fe5ed35de7e8ed506b246678b350ab52e3b9f53bef8603c1e933fad431329ac60b9f88f9b1ebe30bff7c9457d0a7b1058ec4426e39ad2c1c975a0f659a79b968f0d62b34a26547d14100587281cdfccde5f1ccf2627c7e7e77f5263a95fbfbcf9ed1c0f6793f7d3314c2c5cdc5ccf28154a2d96cc726f18ed61931336f64a0343dd0f6be17b3f0d863d7a738ef0baebb8499b23f06251549fc42aab4d0c0fba82c960f00dff5720dd876dc46f06a1ad61ff29fa11c5b155b5d8a887d5439369fbb01ebae130553bb2cb0daed6ec7a33912e09e504b0e9e8fb0e5aa480acf45acf4ad845384dea2af620961b669cfaa07d7603d3afd6a38738363f5602d1ee83f9e5fc9222f5a7d8d112639f45c5b9d25aade2db5ccd591e1795ed53ff6bbddea0917ea798482c97824640d7dfa81888869a521850216159122d93b7c3ce89c081b13770b4fdf80778197a5f2f11f1535aa1ab671c61c12ada9a15b822b80a6f9691ad6fb5b798b2895686274aa604797b11451211ecdf0e7cba9f75667a1b0f8282ad3778ab3f6ad0f2e0136f9305941cc277f0727fdf3d758d4dc635a5fdbdd7af1b81008913ea707e4811274d230bfca0f5f5a85b69c242efcde58007570cd7a228d101d16406e13a79db6646539c82d6295a105c170bccb745360a8ea976c2935edd84171ec5f0acde6ac27a711ebb6d44537f26079d5cd780c2249ad511502f7728bacc66dd30a05c17d8c65cf3e4949b284a25c9a8f1e378a1279a75c9ed52e3a09e50d5396016a22455025324c2e6a82950a51e364ed34f28fc7aee549e4326788e43b235e8a4f06f043e37e8b6ae9d5c22e7e3f63304afddb8b6c077e2ef1afcbcc423e6bcf9c71cf63a2a09ece07e93d075ddccd68ffe1f689c28ed0ed10e8866bb08960aec6869a3fe6820f4ed0c707bd8de8a9bbd62633c2d05f6bffe74bac5924ab96522477eb31d9b44b7380403e5032ac7db86e5070acb2e70434cc84e69c3f034cff9923509560748a191bdae5f0e866e01fcf4a4797a60ec18164f35fb9ac1f5b3ff01c258d84c420f000000000500000000000000000000000000000000000000000000000000000000000000010b4170746f735374646c696200000000000000000000000000000000000000000000000000000000000000010a4d6f76655374646c696200000000000000000000000000000000000000000000000000000000000000010e53757072614672616d65776f726b00000000000000000000000000000000000000000000000000000000000000010b53757072615374646c6962186ba2ba88f4a14ca51f6ce42702c7ebdf6bfcf738d897cc98b986ded6f1219e08537570726156726600",
+        [
+          "0xa11ceb0b060000000c01000a020a10031a1f043902053b20075bcd0108a8024006e80222108a03240aae03260cd403b0010d8405080000010101020103010400050c000006070000070e00030a070000080001000009020000000b03000002140204000415000100011607000106050600010301060c04060c0803080308030105050307080008020f050108010109000973757072615f6e6674056576656e74067369676e657206737472696e670974696d657374616d70094c6173744e6f6e6365094e46544d696e7465640853757072614e46540e6765745f6c6173745f6e6f6e63650b696e69745f6d6f64756c6506537472696e67046d696e74056e6f6e6365096f626a6563745f69640763726561746f72046e616d6509697066735f68617368067261726974790b6465736372697074696f6e056f776e65720a616464726573735f6f66106e6f775f6d6963726f7365636f6e647304656d69743d527b0ca9be59c7c50d18d65fb9c847b901af56dbbf6402f5657dc3f5cee439000000000000000000000000000000000000000000000000000000000000000105203d527b0ca9be59c7c50d18d65fb9c847b901af56dbbf6402f5657dc3f5cee439126170746f733a3a6d657461646174615f7631100001094e46544d696e746564010400000002010c030102050d030e050f0803100803110f0202060d031008030f0803120803110f13050001000100000507002b001000140201000000000d0a001103290020040a0b0006000000000000000012002d00050c0b0001020201040100052d0b0011030c0807002a000c050a05100014060100000000000000160a050f00150b051000140c0411044d4a6400000000000000000000000000000000000000000000000000000000000000190c070b040b010b020b030a070a0812020c060e061001140b080e061002140e061003140b071201380002000002000202020100"
+        ]
+      ]
+    }
+  },
+  "output": {
+    "Move": {
+      "gas_used": 2509,
+      "events": [
+        {
+          "guid": {
+            "creation_number": "0",
+            "account_address": "0x0"
+          },
+          "sequence_number": "0",
+          "type": "0x1::code::PublishPackage",
+          "data": {
+            "code_address": "0x3d527b0ca9be59c7c50d18d65fb9c847b901af56dbbf6402f5657dc3f5cee439",
+            "is_upgrade": false
+          }
+        },
+        {
+          "guid": {
+            "creation_number": "0",
+            "account_address": "0x0"
+          },
+          "sequence_number": "0",
+          "type": "0x1::transaction_fee::FeeStatement",
+          "data": {
+            "execution_gas_units": "7",
+            "io_gas_units": "79",
+            "storage_fee_quants": "242320",
+            "storage_fee_refund_quants": "0",
+            "total_charge_gas_units": "2509"
+          }
+        }
+      ],
+      "vm_status": "Executed successfully"
+    }
+  },
+  "status": "Success"
+}
+
+
